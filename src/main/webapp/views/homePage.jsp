@@ -1,4 +1,6 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
+<link href="${pageContext.request.contextPath}/css/bg.css" rel="stylesheet">
+
 <h3>Welcome to Spring Security Success Page</h3>
 
 <c:if test="${products!=null}">

@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.models.User;
 import com.repositories.UserRepoImpl;
 @Controller
 public class LoginController {
@@ -30,7 +31,16 @@ public class LoginController {
 	}
 
 	@RequestMapping(value = "/login", method = RequestMethod.GET)
-	public ModelAndView loginPage(@RequestParam(value = "error",required = false) String error,
+	public ModelAndView loginPage() {
+		ModelAndView model = new ModelAndView();
+		model.setViewName("login");
+		return model;
+		
+	}
+	
+	@RequestMapping(value = "/login", method = RequestMethod.POST)
+	public String loginPage(
+			HttpServletRequest request,@RequestParam(value = "error",required = false) String error,
 	@RequestParam(value = "logout",	required = false) String logout) {
 		System.out.println(".................................... inside the login page method...........................");
 		ModelAndView model = new ModelAndView();
@@ -41,10 +51,12 @@ public class LoginController {
 		if (logout != null) {
 			model.addObject("message", "Logged out from security site successfully.");
 		}
+		String Mail = request.getParameter("username");
+		User u=us.findbyuname(Mail);
+		System.out.println(u);
+		System.out.println(u.getUsername());
 		System.out.println("valid credentials....................................................");
-		model.setViewName("login");
-	
-		return model;
+		return "homePage";
 	}
 	
 	@GetMapping("/register")
