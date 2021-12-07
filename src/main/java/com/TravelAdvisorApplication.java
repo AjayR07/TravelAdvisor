@@ -17,10 +17,10 @@ public class TravelAdvisorApplication {
 //		for(ItemDTO item:itemService.listItems()) {
 //		System.out.println(item.getItemName() +" : "+item.getItemPrice());
 //	}
-		
-		CartService cartService=ctx.getBean(CartService.class);
-		cartService.getMyCart(1);
-		
+//		
+//		CartService cartService=ctx.getBean(CartService.class);
+//		cartService.getMyCart(1);
+//		
 		
 	}
 

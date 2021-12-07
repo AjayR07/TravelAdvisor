@@ -15,12 +15,34 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="${pageContext.request.contextPath}/css/styles.css" rel="stylesheet" />
         <!--script to include footer-->
-        <script src="${pageContext.request.contextPath}/js/jquery.js"></script> 
-        <script> 
-        $(function(){
-        $("#footer").load("footer.html"); 
-        });
-        </script> 
+        
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script>
+            // $(document).ready(function () {
+            //     $("#addToCart").on("submit",function(e)
+            //      {
+            //         var arr= $("#addToCart").serialize();
+            //         console.log(arr);
+            //         $.ajax({
+            //             data:arr,
+            //             url:"cart/additem",
+            //             method:"POST"
+            //         })
+            //         e.preventDefault();
+            //         return false;
+            //     });
+            // })
+           
+           function dec(id) 
+            {
+                    document.getElementById(id).value=parseInt(document.getElementById(id).value)-1;       
+            }
+            function inc(id) 
+            {
+                document.getElementById(id).value=parseInt(document.getElementById(id).value)+1;            
+            }
+        </script>
+     
     </head>
     <body>
         <!-- Navigation-->
@@ -31,9 +53,10 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-lg-4">
                         <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
+                        <li class="nav-item"><a class="nav-link" id="about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" id="contact">Contact</a></li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                            <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Offers</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#!">All Services</a></li>
                                 <li><hr class="dropdown-divider" /></li>
@@ -67,12 +90,12 @@
                 <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
                     <c:if test="${products!=null}">
 			<c:forEach items="${products}" var="product">
-                    <div class="col mb-5">
+                    <div class="col-md-4 mb-5">
                         <div class="card h-100">
                             <!-- Sale badge-->
                             <div class="badge bg-dark text-white position-absolute" style="top: 0.5rem; right: 0.5rem">Sale</div>
                             <!-- Product image-->
-                            <img class="card-img-top" src="data:image/jpeg;base64,${product.base64imageFile}"  alt="..." />
+                            <img class="card-img-top" src="data:image/jpeg;base64,${product.base64imageFile}" onclick="location.href='/products/${product.itemId}';" alt="..." />
                             <!-- Product details-->
                             <div class="card-body p-4">
                                 <div class="text-center">
@@ -91,92 +114,36 @@
                                      &#8377 ${product.itemPrice}
                                 </div>
                             </div>
+                        <form name="addToCart"  id="addToCart" method="post" action="/cart/addItem"  >
+                            <input type="number" name="itemId" value="${product.itemId}"  hidden/>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                <div class="text-center" onclick="location.href='/products/${product.itemId}';"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                                <div class="d-flex justify-content-center"  >
+                                     
+                                   <div class="input-group mb-3" style="width: 130px;height: 40px;" >
+                                        <div class="input-group-prepend">
+                                            <button type="button" class="btn btn-outline-primary" onclick="dec('qty${product.itemId}')">-</button>
+                                        </div>
+                                        <input type="number" class="form-control" name="qty" id="qty${product.itemId}" value="1" min="1"  max="10" aria-label="No.of.Tickets" readonly>
+                                        <div class="input-group-append">
+                                            <button type="button" class="btn btn-primary" onclick="inc('qty${product.itemId}')" id="plus">+</button>
+                                        </div>
+                                      </div>
+                                    </div>
+                                 </div>
+                                <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                    <div class="text-center" ><input class="btn btn-outline-dark mt-auto" type="submit" value="Add to cart"/></div>
+                                </div>
                             </div>
-                        </div>
+                        </form>
+                        
                     </div>
                    
-</c:forEach>
-</c:if>
+        </c:forEach>
+        </c:if>
                 </div>
             </div>
         </section>
-        <!-- Footer-->
-        <div id="footer"></div>
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <!-- Modal -->
-        <div class="card modal fade" id="mycartModal" role="dialog">
-            <div class="col">
-                <div class="col-md-8 cart">
-                    <div class="title ">
-                        <div class="row">
-                            <div class="col">
-                                <h4><b>Shopping Cart</b></h4>
-                            </div>
-                            <div class="col align-self-center text-right text-muted">3 items</div>
-                        </div>
-                    </div>
-                        <div class="row border-top border-bottom">
-                            <div class="row main align-items-center">
-                                <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/1GrakTl.jpg"></div>
-                                <div class="col">
-                                    <div class="row text-muted">Shirt</div>
-                                    <div class="row">Cotton T-shirt</div>
-                                </div>
-                                <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
-                                <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="row main align-items-center">
-                                <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/ba3tvGm.jpg"></div>
-                                <div class="col">
-                                    <div class="row text-muted">Shirt</div>
-                                    <div class="row">Cotton T-shirt</div>
-                                </div>
-                                <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
-                                <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
-                            </div>
-                        </div>
-                        <div class="row border-top border-bottom">
-                            <div class="row main align-items-center">
-                                <div class="col-2"><img class="img-fluid" src="https://i.imgur.com/pHQ3xT3.jpg"></div>
-                                <div class="col">
-                                    <div class="row text-muted">Shirt</div>
-                                    <div class="row">Cotton T-shirt</div>
-                                </div>
-                                <div class="col"> <a href="#">-</a><a href="#" class="border">1</a><a href="#">+</a> </div>
-                                <div class="col">&euro; 44.00 <span class="close">&#10005;</span></div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="back-to-shop"><a href="#">&leftarrow;</a><span class="text-muted">Back to shop</span></div>
-                <div class="col-md-4 summary ">
-                    <div>
-                        <h5><b>Summary</b></h5>
-                    </div>
-                    <hr>
-                    <div class="row">
-                        <div class="col" style="padding-left:0;">ITEMS 3</div>
-                        <div class="col text-right">&euro; 132.00</div>
-                    </div>
-                    <form>
-                        <p>SHIPPING</p> <select>
-                            <option class="text-muted">Standard-Delivery- &euro;5.00</option>
-                        </select>
-                        <p>GIVE CODE</p> <input id="code" placeholder="Enter your code">
-                    </form>
-                    <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
-                        <div class="col">TOTAL PRICE</div>
-                        <div class="col text-right">&euro; 137.00</div>
-                    </div> <button class="btn">CHECKOUT</button>
-                </div>
-            </div>
-        </div>
+        <%@ include file="footer.html" %>
     </body>
 </html>
