@@ -1,7 +1,7 @@
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <h3>Welcome to Spring Security Success Page</h3>
 
-
+<c:if test="${products!=null}">
 <c:forEach items="${products}" var="product">
 
 <div style="padding:50px;cursor: pointer;" onclick="location.href='/products/${product.itemId}';">
@@ -15,7 +15,7 @@
 </div>
 
 </c:forEach>
-
+</c:if>
 
 <c:url value="/logout" var="logoutUrl" />
 <form id="logout" action="${logoutUrl}" method="post" >

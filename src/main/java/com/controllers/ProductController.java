@@ -1,5 +1,6 @@
 package com.controllers;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -8,7 +9,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.models.ItemDTO;
 import com.services.ItemService;
 
 @Controller
@@ -16,6 +16,7 @@ import com.services.ItemService;
 public class ProductController {
 	@Autowired
 	private ItemService itemService;
+	
 
 	public ItemService getItemService() {
 		return itemService;
@@ -27,15 +28,15 @@ public class ProductController {
 	
 	@RequestMapping(value = { "/all"}, method = RequestMethod.GET)
 	public ModelAndView homePage(ModelAndView model) {
-	
+		
 		model.addObject("products", itemService.listItems());
 		model.setViewName("homePage");
+		
 		return model;
 	}
 	
 	@GetMapping(value = { "/{id}"})
 	public ModelAndView productPage(@PathVariable("id") String id,ModelAndView model) {
-		
 		model.addObject("product", itemService.findItemById(Integer.parseInt(id)));
 		model.setViewName("productPage");
 		return model;

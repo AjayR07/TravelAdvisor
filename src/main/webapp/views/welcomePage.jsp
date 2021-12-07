@@ -256,19 +256,24 @@
   <a href="#">Home</a>
     <a href="#about">About</a>
     <a href="#contact">Contact</a>
-   
+    <a href="/register">Register</a>
+    <a href="${pageContext.request.contextPath}/login">Login</a>
     <a href="#about" style="float:right;padding: 24px 2px;"><i class="fa fa-search"></i></a>
-    <a href="${pageContext.request.contextPath}/loginPage" style="float:right;padding: 24px 2px;"><i class="fa fa-user-circle-o"></i></a>
+    <a href="${pageContext.request.contextPath}/login" style="float:right;padding: 24px 2px;"><i class="fa fa-user-circle-o"></i></a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="NavBar()">&#9776;</a>
   </div>
   </header>
-
+	<c:if test="${not empty message}">
+	<div class="alert">
+	${success}
+	</div>
+	</c:if>
     <div class="banner">
       <section class="left_section">
         <section>
           <span>
             <h1 class="title">To Fuel Your Wanderlust </h1>
-            <h4>The journey of thousand miles begins with a single step...</h4>
+            <h4 style="margin-bottom:70px">The journey of thousand miles begins with a single step...</h4>
             <a href="#Auctions" class="btn1">Let's Get Started</a>
           </span>
         </section>

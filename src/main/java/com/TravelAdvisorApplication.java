@@ -5,8 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;
 
-import com.models.ItemDTO;
-import com.services.ItemService;
+import com.services.CartService;
 
 @SpringBootApplication(scanBasePackages = {"com"},exclude = HibernateJpaAutoConfiguration.class)
 public class TravelAdvisorApplication {
@@ -18,6 +17,11 @@ public class TravelAdvisorApplication {
 //		for(ItemDTO item:itemService.listItems()) {
 //		System.out.println(item.getItemName() +" : "+item.getItemPrice());
 //	}
+		
+		CartService cartService=ctx.getBean(CartService.class);
+		cartService.getMyCart(1);
+		
+		
 	}
 
 }
