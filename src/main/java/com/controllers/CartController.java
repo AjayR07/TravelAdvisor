@@ -21,10 +21,17 @@ public class CartController {
 	@Autowired
 	private CartServiceImpl cartService;
 	
+	@GetMapping("")
+	public ModelAndView myCart(ModelAndView model) {
 
+			CartDTO cart=cartService.getMyCart(1);
+		
+			model.addObject("products", cart);
+			model.setViewName("myCart");
+			return model;
+		}
 	
-	
-	@RequestMapping(value={"/addItem"},method = RequestMethod.POST)
+	@RequestMapping(value={"/cart/addItem"},method = RequestMethod.POST)
 	public ModelAndView addItemToCart(HttpServletRequest request, javax.servlet.http.HttpServletResponse response,ModelAndView model) throws ServletException, IOException{
 		int uid=1;
 		System.out.println("Hello Adding item to your cart");
@@ -35,13 +42,4 @@ public class CartController {
 		return model;
 		
 	}
-	@GetMapping("")
-	public ModelAndView myCart(ModelAndView model) {
-
-			CartDTO cart=cartService.getMyCart(1);
-		
-			model.addObject("products", cart);
-			model.setViewName("myCart");
-			return model;
-		}
 }
