@@ -7,7 +7,7 @@ import com.models.CartDTO;
 public interface CartService {
 	public CartDTO getMyCart(int userId);
 	
-	public CartDTO addToCart(int userId,int productId, int count);
+	public String addToCart(int userId,int productId, int count);
 
 
 	

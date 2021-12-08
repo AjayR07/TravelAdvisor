@@ -16,6 +16,10 @@ import javax.persistence.Table;
 @Table(name="cart")
 public class CartDTO implements Serializable,Cloneable,Comparable<CartDTO>{
 	
+	public CartDTO() {
+		super();
+	}
+
 	/**
 	 * 
 	 */
@@ -104,9 +108,9 @@ public class CartDTO implements Serializable,Cloneable,Comparable<CartDTO>{
 
 	public static CartDTO getInstance(int userId, Set<ProductsInCart> products, float totalPrice) {
 		try {
+			
 			if(cart==null) {
 				cart=new CartDTO( userId,  products, totalPrice);
-				
 			}
 			else {
 				cart=cart.createClone();

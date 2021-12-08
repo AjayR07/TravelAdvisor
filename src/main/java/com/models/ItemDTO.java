@@ -18,6 +18,9 @@ import javax.persistence.Transient;
 @Table(name="item_master")
 public class ItemDTO implements Cloneable,Serializable,Comparable<ItemDTO>{
 	
+	
+
+
 	private static final long serialVersionUID = 1L;
 	
 	@Id

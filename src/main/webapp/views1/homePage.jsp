@@ -18,21 +18,25 @@
         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
         <script>
-            // $(document).ready(function () {
-            //     $("#addToCart").on("submit",function(e)
-            //      {
-            //         var arr= $("#addToCart").serialize();
-            //         console.log(arr);
-            //         $.ajax({
-            //             data:arr,
-            //             url:"cart/additem",
-            //             method:"POST"
-            //         })
-            //         e.preventDefault();
-            //         return false;
-            //     });
-            // })
-           
+            var ajaxRequest=new XMLHttpRequest();
+           function cartForm(event){
+               var formData=new FormData();
+               formData.append("itemId", event.target.elements.itemId.value);
+               formData.append("qty", event.target.elements.qty.value);
+              
+
+            if(ajaxRequest){
+                    ajaxRequest.open("POST","/cart/addItem");
+                    ajaxRequest.onreadystatechange=function(){
+                        if(ajaxRequest.readyState==4 && ajaxRequest.status==200){
+                            var d=ajaxRequest.responseText;
+                            console.log(d);                       
+                        }
+                    }
+                    ajaxRequest.send(formData);
+                }
+                return false;
+           }
            function dec(id) 
             {
                     document.getElementById(id).value=parseInt(document.getElementById(id).value)-1;       
@@ -66,7 +70,7 @@
                         </li>
                     </ul>
                     <form class="d-flex">
-                        <button class="btn btn-outline-dark" type="button" data-toggle="modal" data-target="#mycartModal">
+                        <button class="btn btn-outline-dark" type="button" data-toggle="modal"  data-target="#mycartModal" onclick="location.href='/cart'">
                             <i class="bi-cart-fill me-1"></i>
                             Cart
                             <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
@@ -114,7 +118,7 @@
                                      &#8377 ${product.itemPrice}
                                 </div>
                             </div>
-                        <form name="addToCart"  id="addToCart" method="post" action="/cart/addItem"  >
+                        <form name="addToCart"  id="addToCart" onSubmit="return cartForm(event)"  >
                             <input type="number" name="itemId" value="${product.itemId}"  hidden/>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">

@@ -32,14 +32,14 @@ public class CartController {
 		}
 	
 	@RequestMapping(value={"/addItem"},method = RequestMethod.POST)
-	public ModelAndView addItemToCart(HttpServletRequest request, javax.servlet.http.HttpServletResponse response,ModelAndView model) throws ServletException, IOException{
+	public String addItemToCart(HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws ServletException, IOException{
 		int uid=1;
 		System.out.println("Hello Adding item to your cart");
 		int itemId = Integer.parseInt(request.getParameter("itemId"));
 		int quantity = Integer.parseInt(request.getParameter("qty"));
-		cartService.addToCart(uid,itemId, quantity);
-		model.setViewName("homePage");
-		return model;
+		String res=cartService.addToCart(uid,itemId, quantity);
+		
+		return res;
 		
 	}
 }

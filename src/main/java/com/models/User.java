@@ -29,6 +29,9 @@ public void setPhonenum(String phonenum) {
 public int getUid() {
 	return uid;
 }
+public User() {
+	super();
+}
 public void setUid(int uid) {
 	this.uid = uid;
 }

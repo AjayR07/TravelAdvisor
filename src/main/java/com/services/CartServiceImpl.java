@@ -1,6 +1,8 @@
 package com.services;
 
+import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 import javax.transaction.Transactional;
 
@@ -44,7 +46,8 @@ public class CartServiceImpl implements CartService{
 		
 		CartDTO mycart=cart.findByUserId(userId);
 		if(mycart==null) {
-			mycart=CartDTO.getInstance(userId,null,0);
+			
+			mycart=CartDTO.getInstance(userId,new TreeSet<ProductsInCart>(),0);
 		}
 		else if(mycart!=null) {
 			for(ProductsInCart product:mycart.getProducts()) {
@@ -56,17 +59,30 @@ public class CartServiceImpl implements CartService{
 	}
 
 	@Override
-	public CartDTO addToCart(int userId,int productId, int count) {
+	public String addToCart(int userId,int productId, int count) {
 		CartDTO mycart=this.getMyCart(userId);
 		ItemDTO cart_item=item.findById(productId).orElse(null);
 		float price=cart_item.getItemPrice()*count;
 		ProductsInCart pic=new ProductsInCart(productId,count,price,mycart);
 		Set<ProductsInCart> products=mycart.getProducts();
-		products.add(pic);
+		int isPresent=0;
+		for(ProductsInCart product: products) {
+			if(product.getItemId()==productId) {
+				product.setQuantity(count);
+				product.setTotalCost(price);
+				isPresent=1;
+				break;
+			}
+		}
+		if(isPresent!=1) {
+			products.add(pic);
+		}
+		Double total=products.stream().mapToDouble(ProductsInCart::getTotalCost).sum();
+	
 		mycart.setProducts(products);
-		mycart.setTotalPrice(mycart.getTotalPrice()+price);
+		mycart.setTotalPrice(total.floatValue());
 		cart.save(mycart);
-		return null;
+		return "Product Added to Cart Successfully";
 	}
 
 	

@@ -10,22 +10,25 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Transient;
 
 @Entity
-public class ProductsInCart implements Serializable,Comparable<ProductsInCart>,Cloneable {
+public class ProductsInBooking implements Serializable,Comparable<ProductsInBooking>,Cloneable {
 
-	public ProductsInCart() {
+	public ProductsInBooking() {
 		super();
 	}
 	
-	public ProductsInCart(int itemId, int quantity, float totalCost, CartDTO cart) {
+	
+	public ProductsInBooking(int itemId, int quantity, float totalCost, BookingDTO booking) {
 		super();
 		this.itemId = itemId;
 		this.quantity = quantity;
 		this.totalCost = totalCost;
-		this.cart = cart;
+		this.booking = booking;
 	}
+
+
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
-	private int cartProductId;
+	private int bookingProductId;
 	
 	private static final long serialVersionUID = 1726984765703163766L;
 	private int itemId;
@@ -42,7 +45,7 @@ public class ProductsInCart implements Serializable,Comparable<ProductsInCart>,C
 	private float totalCost;
 	
 	@ManyToOne(fetch = FetchType.EAGER)
-	private CartDTO cart;
+	private BookingDTO booking;
 	
 	public int getItemId() {
 		return itemId;
@@ -63,15 +66,21 @@ public class ProductsInCart implements Serializable,Comparable<ProductsInCart>,C
 	public void setTotalCost(float totalCost) {
 		this.totalCost = totalCost;
 	}
+
+
+	@Override
+	public int compareTo(ProductsInBooking o) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+
 	@Override
 	public String toString() {
-		return "ProductsInCart [itemId=" + itemId + ", quantity=" + quantity + ", totalCost=" + totalCost + "]";
+		return "ProductsInBooking [bookingProductId=" + bookingProductId + ", itemId=" + itemId + ", item=" + item
+				+ ", quantity=" + quantity + ", totalCost=" + totalCost + ", booking=" + booking + "]";
 	}
-	@Override
-	public int compareTo(ProductsInCart o) {
-		// TODO Auto-generated method stub
-		return this.cartProductId>o.cartProductId?1:0;
-	}
+	
 
 	
 	
