@@ -65,18 +65,18 @@
             </div>
             <hr>
             <div class="row">
-                <div class="col" style="padding-left:0;">ITEMS 3</div>
-                <div class="col text-right">&euro; 132.00</div>
+                <div class="col" style="padding-left:0;">ITEMS </div>
+                <div class="col text-right">&#8377;  ${cart.totalPrice}</div>
             </div>
             <form>
-                <p>SHIPPING</p> <select>
-                    <option class="text-muted">Standard-Delivery- &euro;5.00</option>
+                <p>TAX CHARGES</p> <select>
+                    <option class="text-muted">GST- &#8377; ${cart.totalPrice*0.05}</option>
                 </select>
-                <p>GIVE CODE</p> <input id="code" placeholder="Enter your code">
+           <!--     <p>GIVE CODE</p> <input id="code" placeholder="Enter your code">-->
             </form>
             <div class="row" style="border-top: 1px solid rgba(0,0,0,.1); padding: 2vh 0;">
                 <div class="col">TOTAL PRICE</div>
-                <div class="col text-right">&euro; 137.00</div>
+                <div class="col text-right">&#8377;  ${cart.totalPrice+(cart.totalPrice*0.05)}</div>
             </div> <button class="btn">CHECKOUT</button>
         </div>
     </div>

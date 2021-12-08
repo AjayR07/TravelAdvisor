@@ -26,7 +26,7 @@ public class CartController {
 
 			CartDTO cart=cartService.getMyCart(1);
 		
-			model.addObject("products", cart);
+			model.addObject("cart", cart);
 			model.setViewName("myCart");
 			return model;
 		}
