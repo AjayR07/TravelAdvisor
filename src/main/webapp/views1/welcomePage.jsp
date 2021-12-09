@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Welcome Page</title>
+    <title>Trip Ad</title>
   </head>
   <body>
   
@@ -19,10 +19,17 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;200;300;400;500;600;800&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/modal.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/myHeader.css">
 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <style>
-  /*DEFAULT*/
-  
+
   body{
   margin: 0;
   overflow-x: hidden;
@@ -179,10 +186,7 @@
   width:100%;
   display:flex;
   position:relative;
-  background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url("https://wallpaperaccess.com/full/2499987.jpg");
-  background-attachment:fixed;
-  background-size:cover;
-  background-position:right;
+  
   }
   
   .banner section{
@@ -221,7 +225,12 @@
   line-height:1.6em;
   font-weight:400 !important;
   }
-  
+  .banner {
+background:  url("https://wallpaperaccess.com/full/2499987.jpg");
+  background-attachment:fixed;
+  background-size:cover;
+  background-position:right;
+}
   
   @media (max-width:1120px){
   .banner{
@@ -246,6 +255,18 @@
   }
   }
   </style>
+<script>
+
+
+
+window.onload=function(){
+		
+		if(${not empty regStatus}){
+			$('#myModal').modal('show');
+		}
+		
+	}
+</script>
 </head>
 <body>
   <!-- Navigation Bar -->
@@ -263,24 +284,43 @@
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="NavBar()">&#9776;</a>
   </div>
   </header>
-	<c:if test="${not empty message}">
-	<div class="alert">
-	${success}
-	</div>
-	</c:if>
+
+	
     <div class="banner">
       <section class="left_section">
         <section>
           <span>
-            <h1 class="title">To Fuel Your Wanderlust </h1>
-            <h4 style="margin-bottom:70px">The journey of thousand miles begins with a single step...</h4>
-            <a href="#Auctions" class="btn1">Let's Get Started</a>
+            <h1 class="title">To Fuel Your Wanderlust </h1><br>
+            <h4 style="margin-bottom:70px">The journey of thousand miles begins with a single step...</h4><br>
+            <p  class="btn1" style="width:200px" style="color:#2234AE">Let's Get Started</p>
           </span>
-        </section>
+	</section>
       </section>
-      <section class="right-section">
+      <section class="right_section">
       </section>
     </div>
+
+
+
+<div id="myModal" class="modal fade">
+	<div class="modal-dialog modal-confirm modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="icon-box">
+					<i class="material-icons">&#xE876;</i>
+				</div>				
+				<h4 class="modal-title w-100">Awesome!</h4>	
+			</div>
+			<div class="modal-body">
+				<p class="text-center">Your User Registration has been confirmed. Check your email for details.</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+			</div>
+		</div>
+	</div>
+</div>  
+
   </body>
 
 

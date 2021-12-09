@@ -1,6 +1,7 @@
 package com.controllers;
 
 import java.io.IOException;
+import java.security.Principal;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -14,6 +15,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 import com.models.CartDTO;
 import com.services.CartServiceImpl;
+import com.services.MyUserDetailsService;
 
 @Controller
 @RequestMapping("cart")
@@ -21,25 +23,18 @@ public class CartController {
 	@Autowired
 	private CartServiceImpl cartService;
 	
+	@Autowired
+	private MyUserDetailsService userService;
+	
 	@GetMapping("")
-	public ModelAndView myCart(ModelAndView model) {
-
-			CartDTO cart=cartService.getMyCart(1);
+	public ModelAndView myCart(ModelAndView model, Principal principal) {
+			
+			
+			CartDTO cart=cartService.getMyCart(userService.getUser(principal.getName()).getUid());
 		
 			model.addObject("cart", cart);
 			model.setViewName("myCart");
 			return model;
 		}
 	
-	@RequestMapping(value={"/addItem"},method = RequestMethod.POST)
-	public String addItemToCart(HttpServletRequest request, javax.servlet.http.HttpServletResponse response) throws ServletException, IOException{
-		int uid=1;
-		System.out.println("Hello Adding item to your cart");
-		int itemId = Integer.parseInt(request.getParameter("itemId"));
-		int quantity = Integer.parseInt(request.getParameter("qty"));
-		String res=cartService.addToCart(uid,itemId, quantity);
-		
-		return res;
-		
-	}
 }

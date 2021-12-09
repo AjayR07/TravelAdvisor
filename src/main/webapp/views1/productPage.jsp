@@ -1,5 +1,6 @@
 <head>
 <link rel="stylesheet" href="${pageContext.request.contextPath}/css/styles.css">
+	<link rel="stylesheet" href="${pageContext.request.contextPath}/css/myHeader.css">
 </head>
 <div class="card h-100 " style="width: 60%;margin: auto;padding: auto;">
                             <!-- Sale badge-->

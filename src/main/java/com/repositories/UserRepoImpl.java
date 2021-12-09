@@ -33,15 +33,11 @@ public class UserRepoImpl implements UserRepo {
 
 	@Override
 	public User findbyuname(String uname) {
-		System.out.println(1);
-		System.out.println("uname "+uname);
+
 		Criteria cr = factory.getCurrentSession().createCriteria(User.class);
 		cr.add(Restrictions.eq("Mail",uname));
 		List results = cr.list();
-		System.out.println("name "+results);
 		Object query=results.get(0);
-		System.out.println("name "+query);
-		System.out.println("name333333 "+((User)query).getUsername());
 		return (User)query;
 	}
 	@Override

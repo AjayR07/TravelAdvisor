@@ -32,13 +32,10 @@ public class UserDetailsImpl implements UserDetails {
 	@Override
 	public String getUsername() {
 		// TODO Auto-generated method stub
-		return user.getUsername();
+		return user.getMail();
 	}
 	
-	public User getUser() {
-		return user;
-	}
-
+	
 	@Override
 	public boolean isAccountNonExpired() {
 		// TODO Auto-generated method stub

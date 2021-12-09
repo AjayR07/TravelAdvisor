@@ -7,6 +7,7 @@ import org.springframework.context.ConfigurableApplicationContext;
 
 import com.models.CartDTO;
 import com.models.ProductsInCart;
+import com.repositories.BookingRepo;
 import com.services.CartService;
 
 @SpringBootApplication(scanBasePackages = {"com"},exclude = HibernateJpaAutoConfiguration.class)

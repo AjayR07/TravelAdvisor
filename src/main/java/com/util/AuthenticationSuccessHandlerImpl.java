@@ -44,12 +44,7 @@ public class AuthenticationSuccessHandlerImpl implements AuthenticationSuccessHa
         
         
       
-    	
-//    	System.out.println(user.getUsername());
-    	 int uid=((UserDetailsImpl) authentication.getPrincipal()).getUser().getUid();
-    	
-        session.setAttribute("CurrentUser",uid);
-        System.out.println(session.getAttribute("CurrentUser"));
+
 
     }
 

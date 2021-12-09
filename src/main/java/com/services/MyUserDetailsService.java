@@ -35,9 +35,10 @@ public class MyUserDetailsService implements UserDetailsService {
 		 System.out.println("Name is "+user.getUsername());
 		 
       return new UserDetailsImpl(user);
-
-
-  	 
+	}
+	
+	public User getUser(String mail) {
+		return repo.findbyuname(mail);
 	}
 
 }

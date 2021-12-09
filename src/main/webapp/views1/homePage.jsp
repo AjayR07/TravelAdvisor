@@ -14,6 +14,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="${pageContext.request.contextPath}/css/styles.css" rel="stylesheet" />
+        <link href="${pageContext.request.contextPath}/css/cartbtn.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/518bcdd6c6.js"></script>
         <!--script to include footer-->
         
         <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
@@ -45,8 +47,44 @@
             {
                 document.getElementById(id).value=parseInt(document.getElementById(id).value)+1;            
             }
+            $(document).ready(function() {
+				 // executes when HTML-Document is loaded and DOM is ready
+				console.log("document is ready");
+				  
+				
+				  $( ".card" ).hover(
+				  function() {
+				    $(this).addClass('shadow-lg').css('cursor', 'pointer'); 
+				  }, function() {
+				    $(this).removeClass('shadow-lg');
+				  }
+				);
+				 
+				});
+				
+				
+				
         </script>
-     
+     <style>
+    .glass-button {
+		   display: inline-block;
+		   padding: 24px 32px;
+		   border: 0;
+		   text-decoration: none;
+		   border-radius: 15px;
+		 
+		   border: 1px solid rgba(255,255,255,0.1);
+		   backdrop-filter: blur(30px);
+		   color: rgba(255,255,255,0.8);
+		   font-size: 14px;
+		   letter-spacing: 2px;
+		   cursor: pointer;
+		   text-transform: uppercase;
+ }
+
+ .glass-button:hover {
+   background-color: rgba(255,255,255,0.2);
+ }</style>
     </head>
     <body>
         <!-- Navigation-->
@@ -122,23 +160,34 @@
                             <input type="number" name="itemId" value="${product.itemId}"  hidden/>
                             <!-- Product actions-->
                             <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                            
                                 <div class="d-flex justify-content-center"  >
-                                     
-                                   <div class="input-group mb-3" style="width: 130px;height: 40px;" >
+                                
+                                   <div class="input-group mb-3" style="width: 130px;height:20px" >
                                         <div class="input-group-prepend">
-                                            <button type="button" class="btn btn-outline-primary" onclick="dec('qty${product.itemId}')">-</button>
+                                            <button type="button" class="btn btn  glass-button" onclick="dec('qty${product.itemId}')">-</button>
                                         </div>
-                                        <input type="number" class="form-control" name="qty" id="qty${product.itemId}" value="1" min="1"  max="10" aria-label="No.of.Tickets" readonly>
+                                        
+                                        <input type="number" style="text-align:right;background-color:#fff" class="form-control" name="qty" id="qty${product.itemId}" value="1" min="1"  max="10" aria-label="No.of.Tickets" readonly>
                                         <div class="input-group-append">
-                                            <button type="button" class="btn btn-primary" onclick="inc('qty${product.itemId}')" id="plus">+</button>
+                                            <button type="button" class="btn btn glass-button" onclick="inc('qty${product.itemId}')" id="plus">+</button>
                                         </div>
                                       </div>
                                     </div>
                                  </div>
                                 <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
-                                    <div class="text-center" ><input class="btn btn-outline-dark mt-auto" type="submit" value="Add to cart"/></div>
+                                    <div class="text-center" >
+	                                    <button class="btn btn-outline-dark"  type="submit">
+	                                    
+	                                    	<span class="add"><i class="fa fa-shopping-cart"></i>&nbsp;Add to cart<span>
+	                                    	<span class="adding" style="display:none"><span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>Adding to Cart...<span>
+											
+	                                    </button>
+	                                    
+	                                </div>
                                 </div>
                             </div>
+                            
                         </form>
                         
                     </div>
