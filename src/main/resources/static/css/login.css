@@ -34,7 +34,7 @@ body {
     height: 100%;
     position: absolute;
     padding: 90px 70px 50px 70px;
-    background: rgba(0, 77, 77, .6)
+    background: rgba(0, 77, 77, .5)
 }
 
 .login-snip .login,
@@ -109,7 +109,7 @@ body {
 }
 
 .login-space .group .label {
-    color: rgb(235, 235, 235);
+    color: rgb(244, 244, 244);
     font-size: 12px
 }
 

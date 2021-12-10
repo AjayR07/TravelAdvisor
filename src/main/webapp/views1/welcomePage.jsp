@@ -261,7 +261,7 @@ background:  url("https://wallpaperaccess.com/full/2499987.jpg");
 
 window.onload=function(){
 		
-		if(${not empty regStatus}){
+		if(${ not empty regStatus}){
 			$('#myModal').modal('show');
 		}
 		

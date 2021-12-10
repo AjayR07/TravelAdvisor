@@ -19,7 +19,7 @@ public class BookingDTO implements Serializable,Cloneable,Comparable<BookingDTO>
 	}
 
 	
-	public BookingDTO(int userId, Set<ProductsInBooking> products, float totalPrice) {
+	public BookingDTO(int userId, float totalPrice) {
 		super();
 		this.userId = userId;
 		this.products = products;
@@ -75,16 +75,16 @@ public class BookingDTO implements Serializable,Cloneable,Comparable<BookingDTO>
 	}
 
 
-	public static BookingDTO getInstance(int userId, Set<ProductsInBooking> products, float totalPrice) {
+	public static BookingDTO getInstance(int userId, float totalPrice) {
 		try {
 			
 			if(booking==null) {
-				booking=new BookingDTO( userId,  products, totalPrice);
+				booking=new BookingDTO( userId, totalPrice);
 			}
 			else {
 				booking=booking.createClone();
 				booking.setUserId(userId);
-				booking.setProducts(products);
+				
 				booking.setTotalPrice(totalPrice);
 			}
 		} catch (Exception e) {

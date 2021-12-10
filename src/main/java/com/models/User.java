@@ -19,8 +19,17 @@ public class User {
 @GeneratedValue(generator="kaugen")
  private int uid;
 private String Phonenum;
+private String username;
+private  String Mail;
 
- public String getPhonenum() {
+private String role;
+private int flag;
+
+
+private String password;
+
+
+public String getPhonenum() {
 	return Phonenum;
 }
 public void setPhonenum(String phonenum) {
@@ -54,11 +63,7 @@ public int getFlag() {
 public void setFlag(int flag) {
 	this.flag = flag;
 }
-private String username;
-private  String Mail;
 
-private String role;
-private int flag;
 
 public String getUsername() {
 	return username;
@@ -72,6 +77,5 @@ public String getPassword() {
 public void setPassword(String password) {
 	this.password = password;
 }
-private String password;
  
 }

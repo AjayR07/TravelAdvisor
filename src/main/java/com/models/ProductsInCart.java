@@ -28,6 +28,13 @@ public class ProductsInCart implements Serializable,Comparable<ProductsInCart>,C
 	private int cartProductId;
 	
 	private static final long serialVersionUID = 1726984765703163766L;
+	public int getCartProductId() {
+		return cartProductId;
+	}
+
+	public void setCartProductId(int cartProductId) {
+		this.cartProductId = cartProductId;
+	}
 	private int itemId;
 	@Transient
 	private ItemDTO item;

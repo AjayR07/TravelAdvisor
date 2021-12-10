@@ -14,7 +14,9 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="${pageContext.request.contextPath}/css/styles.css" rel="stylesheet" />
-        <link href="${pageContext.request.contextPath}/css/cartbtn.css" rel="stylesheet" />
+        
+        
+        <link href="${pageContext.request.contextPath}/css/toast.css" rel="stylesheet" />
         <script src="https://use.fontawesome.com/518bcdd6c6.js"></script>
         <!--script to include footer-->
         
@@ -31,8 +33,12 @@
                     ajaxRequest.open("POST","/cart/addItem");
                     ajaxRequest.onreadystatechange=function(){
                         if(ajaxRequest.readyState==4 && ajaxRequest.status==200){
-                            var d=ajaxRequest.responseText;
-                            console.log(d);                       
+                            var d=JSON.parse(ajaxRequest.responseText);
+                            console.log(d["cart"][0]);
+                            	document.getElementById("cart").innerHTML=d["cart"][0];
+                            
+                           	document.getElementById("desc").innerHTML=d["msg"][0];  
+                            launch_toast();
                         }
                     }
                     ajaxRequest.send(formData);
@@ -48,10 +54,7 @@
                 document.getElementById(id).value=parseInt(document.getElementById(id).value)+1;            
             }
             $(document).ready(function() {
-				 // executes when HTML-Document is loaded and DOM is ready
-				console.log("document is ready");
-				  
-				
+					$("#cart").val(${cart})
 				  $( ".card" ).hover(
 				  function() {
 				    $(this).addClass('shadow-lg').css('cursor', 'pointer'); 
@@ -62,7 +65,11 @@
 				 
 				});
 				
-				
+				function launch_toast() {
+				    var x = document.getElementById("toast")
+				    x.className = "show";
+				    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 5000);
+				}
 				
         </script>
      <style>
@@ -110,8 +117,8 @@
                     <form class="d-flex">
                         <button class="btn btn-outline-dark" type="button" data-toggle="modal"  data-target="#mycartModal" onclick="location.href='/cart'">
                             <i class="bi-cart-fill me-1"></i>
-                            Cart
-                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                            My Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill" id="cart">${cart}</span>
                         </button>
                     </form>
                 </div>
@@ -197,6 +204,8 @@
                 </div>
             </div>
         </section>
+        
+        <div id="toast" ><div id="success"><div id="img" ><i class="fa fa-check icon"></i></div><div id="desc"></div></div></div>
         <%@ include file="footer.html" %>
     </body>
 </html>
