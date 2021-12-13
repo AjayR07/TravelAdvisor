@@ -22,7 +22,7 @@ public class BookingDTO implements Serializable,Cloneable,Comparable<BookingDTO>
 	public BookingDTO(int userId, float totalPrice) {
 		super();
 		this.userId = userId;
-		this.products = products;
+		
 		this.totalPrice = totalPrice;
 	}
 
@@ -44,6 +44,16 @@ public class BookingDTO implements Serializable,Cloneable,Comparable<BookingDTO>
 	private static BookingDTO booking;
 	
 	
+
+	public int getBookingId() {
+		return bookingId;
+	}
+
+
+	public void setBookingId(int bookingId) {
+		this.bookingId = bookingId;
+	}
+
 
 	public int getUserId() {
 		return userId;

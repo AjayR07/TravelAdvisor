@@ -14,9 +14,13 @@ import com.models.BookingDTO;
 import com.models.ItemDTO;
 import com.models.ProductsInBooking;
 import com.models.ProductsInCart;
+import com.models.User;
 import com.repositories.BookingRepo;
 import com.repositories.CartRepo;
 import com.repositories.ProductsInCartRepo;
+import com.repositories.UserRepoImpl;
+import com.util.email.EmailerImpl;
+import com.util.pdfGenerator.PdfGenImpl;
 
 @Service
 @Transactional
@@ -27,6 +31,8 @@ public class BookingService {
 	@Autowired
 	private ItemService itemRepo;
 
+	@Autowired
+	private UserRepoImpl userRepo;
 	
 	@Autowired
 	private CartRepo cartRepo;
@@ -86,9 +92,7 @@ public class BookingService {
 	
 	public String generateBooking(int userId,int[] cartProducts, int total) {
 		Set<ProductsInBooking> products=new TreeSet<ProductsInBooking>();
-		try {
-			
-		
+		try {	
 		BookingDTO book=BookingDTO.getInstance(userId, (float)total/100);
 		for(int i:cartProducts) {
 			ProductsInCart cartProd=productInCartRepo.findById(i).orElse(null);
@@ -97,8 +101,10 @@ public class BookingService {
 			productInCartRepo.deleteById(i);
 		}
 		book.setProducts(products);
-		
 		bookingRepo.save(book);
+		User user=userRepo.findbyid(userId);
+		String path=new PdfGenImpl().generatePdf(book, user);
+		new EmailerImpl().sendEmail(book,user ,path);
 		return "Your Booking is Successfull!";
 		}
 		catch(Exception e) {

@@ -40,6 +40,15 @@ public class UserRepoImpl implements UserRepo {
 		Object query=results.get(0);
 		return (User)query;
 	}
+	
+	public User findbyid(int uid) {
+
+		Criteria cr = factory.getCurrentSession().createCriteria(User.class);
+		cr.add(Restrictions.eq("uid",uid));
+		List results = cr.list();
+		Object query=results.get(0);
+		return (User)query;
+	}
 	@Override
 	public int save(String uname,String email,String pass,String phno) {
 		// TODO Auto-generated method stub

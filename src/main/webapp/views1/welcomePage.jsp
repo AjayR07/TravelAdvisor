@@ -32,6 +32,7 @@
 
   body{
   margin: 0;
+  width:100%;
   overflow-x: hidden;
   background-color: #061221;
   color:#fff;
@@ -183,7 +184,7 @@
   
   /*BANNER*/
   .banner{
-  width:100%;
+  width:120%;
   display:flex;
   position:relative;
   
@@ -191,7 +192,7 @@
   
   .banner section{
   height:100vh;
-  width:50%;
+  width:85%;
   position:relative;
   }
   
@@ -226,6 +227,7 @@
   font-weight:400 !important;
   }
   .banner {
+  width:100%;
 background:  url("https://wallpaperaccess.com/full/2499987.jpg");
   background-attachment:fixed;
   background-size:cover;
@@ -254,6 +256,37 @@ background:  url("https://wallpaperaccess.com/full/2499987.jpg");
   width:120%;
   }
   }
+  
+  .slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInRight {
+  0% {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  }
+  @keyframes slideInRight {
+  0% {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  } 
   </style>
 <script>
 
@@ -300,8 +333,40 @@ window.onload=function(){
       </section>
     </div>
 
+<h1 class="text-center" style="padding-top:3%;font-size:60px;font-family:Manrope;"> Why us?</h1>
+<div  class="row">
+
+	<div class="col-7" style="padding:15%;padding-top:5%;font-family:Manrope;justify-content: center; font-size:25px;">
+		<p style="font-size:60px;font-weight:bold">We take care of your trips</p> Traveling is fun and exciting. OfCourse we don't you to have any trouble for schedules, ticket booking, etc.., We are the ones who take care of all your needs.
+	</div>
+	
+	<div class="col-5">
+		<img src="https://stories.freepiklabs.com/storage/22085/trip-pana-2143.png" >
+	</div>
+
+</div>
+
+<img src="https://cdn.dribbble.com/users/648922/screenshots/7085082/media/2930078d78c4de20c72bfdbf4d3eb8b8.png?compress=1&resize=1600x1200" style="width:100%">
+
+<h1 class="text-center" style="padding-top:3%;font-size:60px;font-family:Manrope;"> Exclusive Tickets</h1>
+<div  class="row" style="padding:3%;padding-right:5%">
+	
+	<div class="col" >
+		<img src="https://images.unsplash.com/photo-1516901941577-95fa3e26798b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdhdGVyJTIwc3BvcnRzfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=490&q=60" style="border-radius:30px;">
+	</div>
+	
+	<div class="col">
+		<img src="https://images.unsplash.com/photo-1614094723471-ed6e2cf28cad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=490&q=60" style="border-radius:30px;">
+	</div>
+	<div class="col" >
+		<img src="https://images.unsplash.com/photo-1507608443039-bfde4fbcd142?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG90JTIwYWlyJTIwYmFsbG9vbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=490&q=60" style="border-radius:30px;">
+	</div>
+
+</div>
 
 
+        <%@ include file="footer.html" %>
+        
 <div id="myModal" class="modal fade">
 	<div class="modal-dialog modal-confirm modal-dialog-centered">
 		<div class="modal-content">
