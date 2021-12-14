@@ -337,7 +337,7 @@ window.onload=function(){
 <div  class="row">
 
 	<div class="col-7" style="padding:15%;padding-top:5%;font-family:Manrope;justify-content: center; font-size:25px;">
-		<p style="font-size:60px;font-weight:bold">We take care of your trips</p> Traveling is fun and exciting. OfCourse we don't you to have any trouble for schedules, ticket booking, etc.., We are the ones who take care of all your needs.
+		<p style="font-size:60px;font-weight:bold">We take care of your trips</p> Traveling is fun and exciting. OfCourse we don't want you to have any trouble for schedules, ticket booking, etc.., We are the ones who take care of all your needs.
 	</div>
 	
 	<div class="col-5">

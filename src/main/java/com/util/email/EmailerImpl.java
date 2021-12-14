@@ -1,4 +1,6 @@
 package com.util.email;
+import java.io.File;
+import java.io.IOException;
 import java.util.Properties;
 
 import javax.activation.DataHandler;
@@ -59,31 +61,34 @@ public class EmailerImpl implements Emailer {
 			message.setFrom(new InternetAddress(username));
 			message.setRecipient(Message.RecipientType.TO,new InternetAddress(recipient));
 			message.setSubject("Enjoy our Trip Ad Service...");
-			
-		    BodyPart messageBodyContent= new MimeBodyPart();  
-		    messageBodyContent.setText("This is message body");  
+			  
 		      
 		    //creating new MimeBodyPart object and set DataHandler object to this object      
 		    MimeBodyPart messageBodyAttachment = new MimeBodyPart();  
 		  
 		    
-		    DataSource source = new FileDataSource(path);  
-		    
-		    messageBodyAttachment.setDataHandler(new DataHandler(source));  
-		    messageBodyAttachment.setFileName("Invoice.pdf");  
+		  
 		     
 		     
 		    //5) create Multipart object and add MimeBodyPart objects to this object      
-		    Multipart multipart = new MimeMultipart();  
-		    multipart.addBodyPart(messageBodyContent);  
-		    multipart.addBodyPart(messageBodyAttachment);  
-		  
+		    Multipart multipart = new MimeMultipart(); 
+		    MimeBodyPart attachmentPart = new MimeBodyPart();
+            MimeBodyPart textPart = new MimeBodyPart();
+		    try {
+                File f =new File(path);
+               attachmentPart.attachFile(f);
+               textPart.setText("Thanks for using our delightful service ");
+               multipart.addBodyPart(textPart);
+               multipart.addBodyPart(attachmentPart);
+           } catch (IOException e) {
+               e.printStackTrace();
+           }
 		     
 		    message.setContent(multipart);    
 			message.setText("Your Booking is Successfull. Here is your booking ID: "+booking.getBookingId());
 			return message;
 		} catch (Exception e) {
-			e.printStackTrace();
+			e.printStackTrace(); 
 			return null;
 		}
 	}
