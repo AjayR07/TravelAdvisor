@@ -172,12 +172,12 @@
                                 
                                    <div class="input-group mb-3" style="width: 130px;height:20px" >
                                         <div class="input-group-prepend">
-                                            <button type="button" class="btn btn  glass-button" onclick="dec('qty${product.itemId}')">-</button>
+                                            <button type="button" class="btn btn" onclick="dec('qty${product.itemId}')">-</button>
                                         </div>
                                         
                                         <input type="number" style="text-align:right;background-color:#fff" class="form-control" name="qty" id="qty${product.itemId}" value="1" min="1"  max="10" aria-label="No.of.Tickets" readonly>
                                         <div class="input-group-append">
-                                            <button type="button" class="btn btn glass-button" onclick="inc('qty${product.itemId}')" id="plus">+</button>
+                                            <button type="button" class="btn btn " onclick="inc('qty${product.itemId}')" id="plus">+</button>
                                         </div>
                                       </div>
                                     </div>
@@ -206,6 +206,6 @@
         </section>
         
         <div id="toast" ><div id="success"><div id="img" ><i class="fa fa-check icon"></i></div><div id="desc"></div></div></div>
-        <%@ include file="footer.html" %>
+
     </body>
 </html>
