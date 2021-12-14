@@ -27,7 +27,7 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter{
 		
 		.and().authorizeRequests().antMatchers("/products/**").authenticated()
 		.and().authorizeRequests().antMatchers("/cart").authenticated()
-		.and().authorizeRequests().antMatchers("/login","/register").permitAll()
+		.and().authorizeRequests().antMatchers("/login","/register","/forgotPass").permitAll()
 				.and()
 			.formLogin().loginPage("/login").successHandler(authenticationSuccessHandler)
 			.defaultSuccessUrl("/products/all")

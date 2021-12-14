@@ -23,19 +23,22 @@ public class PdfGenImpl implements PdfGenerator,Serializable{
 	
 	private static final long serialVersionUID = -6654236686888621494L;
 	private String FILE_NAME;
+	private File f;
 	@Override
 	public String generatePdf(BookingDTO booking, User user) throws Exception {
 		System.out.println("Creating your PDF....");
 		Document document = new Document();
 		FILE_NAME="TRIP_AD_"+String.valueOf(1000+booking.getBookingId())+".pdf";
 		try {
-        	PdfWriter.getInstance(document, new FileOutputStream(new File(FILE_NAME)));
+			f=new File(FILE_NAME);
+			
+        	PdfWriter.getInstance(document, new FileOutputStream(f));
 
             //open
             document.open();
 
             Paragraph p = new Paragraph();
-            p.add("e-FIR Filing Process");
+            p.add("Trip Ad Travel Advisor");
             p.setAlignment(Element.ALIGN_CENTER);
             document.add(p);
             
@@ -47,7 +50,7 @@ public class PdfGenImpl implements PdfGenerator,Serializable{
             f.setStyle(Font.BOLD);
             f.setSize(8);
             
-            document.add(new Paragraph("Your FIR is Filed.",f));
+            document.add(new Paragraph("Booking Invoice.",f));
             PdfPTable table = new PdfPTable(3); // 3 columns.
             table.setWidthPercentage(100); //Width 100%
             table.setSpacingBefore(10f); //Space before table
@@ -57,19 +60,19 @@ public class PdfGenImpl implements PdfGenerator,Serializable{
             float[] columnWidths = {1f, 1f, 1f};
             table.setWidths(columnWidths);
      
-            PdfPCell cell1 = new PdfPCell(new Paragraph("Ajay"));
+            PdfPCell cell1 = new PdfPCell(new Paragraph(booking.getBookingId()));
             cell1.setBorderColor(BaseColor.BLUE);
             cell1.setPaddingLeft(10);
             cell1.setHorizontalAlignment(Element.ALIGN_CENTER);
             cell1.setVerticalAlignment(Element.ALIGN_MIDDLE);
      
-            PdfPCell cell2 = new PdfPCell(new Paragraph("Krishna"));
+            PdfPCell cell2 = new PdfPCell(new Paragraph(user.getUsername()));
             cell2.setBorderColor(BaseColor.GREEN);
             cell2.setPaddingLeft(10);
             cell2.setHorizontalAlignment(Element.ALIGN_CENTER);
             cell2.setVerticalAlignment(Element.ALIGN_MIDDLE);
      
-            PdfPCell cell3 = new PdfPCell(new Paragraph("Thiyo"));
+            PdfPCell cell3 = new PdfPCell(new Paragraph(booking.getTotalPrice()));
             cell3.setBorderColor(BaseColor.RED);
             cell3.setPaddingLeft(10);
             cell3.setHorizontalAlignment(Element.ALIGN_CENTER);
@@ -97,8 +100,10 @@ public class PdfGenImpl implements PdfGenerator,Serializable{
         }
 	
 	System.out.println("Hurrah!  PDF Generated successfully.....");
-	
-		return FILE_NAME;
+	System.out.println(f.getAbsolutePath());
+	System.out.println(f.getPath());
+	return f.getAbsolutePath();
+		
 	}
 
 }

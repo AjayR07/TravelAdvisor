@@ -79,5 +79,16 @@ public class UserRepoImpl implements UserRepo {
 
 	}
 
+	public int update(String uname,String pass) {
+
+		Criteria cr = factory.getCurrentSession().createCriteria(User.class);
+		cr.add(Restrictions.eq("Mail",uname));
+		List results = cr.list();
+		User user=(User) results.get(0);
+		String generatedSecuredPasswordHash = BCrypt.hashpw(pass, BCrypt.gensalt(8));
+		user.setPassword(generatedSecuredPasswordHash);
+		factory.getCurrentSession().save(user);
+		return 1;
+	}
 
 }

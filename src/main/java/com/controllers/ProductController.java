@@ -38,7 +38,9 @@ public class ProductController {
 	
 	@RequestMapping(value = { "/all"}, method = RequestMethod.GET)
 	public ModelAndView homePage(ModelAndView model,Principal principal) {
+		
 		int cnt=cartService.getCartProductsCount(userService.getUser(principal.getName()).getUid());
+		
 		model.addObject("cart", cnt);
 		model.addObject("products", itemService.listItems());
 		model.setViewName("homePage");

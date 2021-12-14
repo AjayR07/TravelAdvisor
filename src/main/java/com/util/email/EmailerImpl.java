@@ -45,7 +45,7 @@ public class EmailerImpl implements Emailer {
 			    } 
 		});
 		
-		Message msg=prepareMessage(session,username,user.getMail(),attachmentPath);
+		Message msg=prepareMessage(session,username,user.getMail(),attachmentPath,booking);
 		
 		Transport.send(msg);
 		System.out.println("Hurrah!  Email Send successfully.....");
@@ -53,12 +53,12 @@ public class EmailerImpl implements Emailer {
 		
 	}
 	
-	private static Message prepareMessage(Session session,String username,String recipient,String path) {
+	private static Message prepareMessage(Session session,String username,String recipient,String path,BookingDTO booking) {
 		Message message=new MimeMessage(session);
 		try {
 			message.setFrom(new InternetAddress(username));
 			message.setRecipient(Message.RecipientType.TO,new InternetAddress(recipient));
-			message.setSubject("FIR record is Filed...");
+			message.setSubject("Enjoy our Trip Ad Service...");
 			
 		    BodyPart messageBodyContent= new MimeBodyPart();  
 		    messageBodyContent.setText("This is message body");  
@@ -70,7 +70,7 @@ public class EmailerImpl implements Emailer {
 		    DataSource source = new FileDataSource(path);  
 		    
 		    messageBodyAttachment.setDataHandler(new DataHandler(source));  
-		    messageBodyAttachment.setFileName("Book XML File");  
+		    messageBodyAttachment.setFileName("Invoice.pdf");  
 		     
 		     
 		    //5) create Multipart object and add MimeBodyPart objects to this object      
@@ -80,7 +80,7 @@ public class EmailerImpl implements Emailer {
 		  
 		     
 		    message.setContent(multipart);    
-			message.setText("Your application for FIR filing is processed and generated successfully. FIR Duplicate Copy is attached here. Needed Action will be taken ASAP.");
+			message.setText("Your Booking is Successfull. Here is your booking ID: "+booking.getBookingId());
 			return message;
 		} catch (Exception e) {
 			e.printStackTrace();

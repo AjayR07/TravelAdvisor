@@ -7,6 +7,7 @@ import java.util.Map;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import org.jboss.logging.Logger;
 import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,6 +20,7 @@ import com.services.MyUserDetailsService;
 @org.springframework.web.bind.annotation.RestController
 public class RestController {
 	
+	private static Logger logger = Logger.getLogger(RestController.class.getName());
 	@Autowired
 	private CartServiceImpl cartService;
 	
@@ -33,6 +35,7 @@ public class RestController {
 			 return jsonObject.toMap();
 			}
 			int uid=userService.getUser(principal.getName()).getUid();
+			logger.info(principal.getName()+" added an item to his cart");
 			System.out.println("Hello Adding item to your cart");
 			String res=cartService.addToCart(uid,itemId, qty);
 			int cnt=cartService.getCartProductsCount(uid);
