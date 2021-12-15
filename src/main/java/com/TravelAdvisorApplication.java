@@ -1,19 +1,21 @@
 package com;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+
+import org.jsoup.Jsoup;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
 import org.springframework.context.ConfigurableApplicationContext;
-
-import com.models.CartDTO;
-import com.models.ProductsInCart;
-import com.repositories.BookingRepo;
-import com.services.CartService;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
 @SpringBootApplication(scanBasePackages = {"com"},exclude = HibernateJpaAutoConfiguration.class)
 public class TravelAdvisorApplication {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		ConfigurableApplicationContext ctx=  SpringApplication.run(TravelAdvisorApplication.class, args);
 //		ItemService itemService=ctx.getBean("itemService",ItemService.class);
 //		itemService.addItem();
@@ -26,8 +28,6 @@ public class TravelAdvisorApplication {
 //		for(ProductsInCart p:cart.getProducts()) {
 //			System.out.println(p);
 //		}
-		
-		
 	}
 
 }

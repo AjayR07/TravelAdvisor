@@ -3,11 +3,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.Properties;
 
-import javax.activation.DataHandler;
-import javax.activation.DataSource;
-import javax.activation.FileDataSource;
 import javax.mail.Authenticator;
-import javax.mail.BodyPart;
 import javax.mail.Message;
 import javax.mail.Multipart;
 import javax.mail.PasswordAuthentication;
@@ -17,6 +13,8 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
+
+import org.jsoup.Jsoup;
 
 import com.models.BookingDTO;
 import com.models.User;
@@ -48,7 +46,7 @@ public class EmailerImpl implements Emailer {
 		});
 		
 		Message msg=prepareMessage(session,username,user.getMail(),attachmentPath,booking);
-		
+		System.out.println(msg);
 		Transport.send(msg);
 		System.out.println("Hurrah!  Email Send successfully.....");
 		
@@ -60,32 +58,30 @@ public class EmailerImpl implements Emailer {
 		try {
 			message.setFrom(new InternetAddress(username));
 			message.setRecipient(Message.RecipientType.TO,new InternetAddress(recipient));
-			message.setSubject("Enjoy our Trip Ad Service...");
+			message.setSubject("Trip Ad Service Booking");
 			  
-		      
-		    //creating new MimeBodyPart object and set DataHandler object to this object      
-		    MimeBodyPart messageBodyAttachment = new MimeBodyPart();  
-		  
-		    
-		  
-		     
-		     
-		    //5) create Multipart object and add MimeBodyPart objects to this object      
+ 
 		    Multipart multipart = new MimeMultipart(); 
 		    MimeBodyPart attachmentPart = new MimeBodyPart();
             MimeBodyPart textPart = new MimeBodyPart();
 		    try {
+		    	
+		    	
+		    	
                 File f =new File(path);
+                System.out.println(f.getAbsolutePath()+" "+f.getName());
                attachmentPart.attachFile(f);
-               textPart.setText("Thanks for using our delightful service ");
+               
+              // textPart.setText("Your Booking is Successful. Here is your booking ID: "+booking.getBookingId());
+               textPart.setText(Jsoup.parse(new File("email.html"), "UTF-8").toString());
+               textPart.setHeader("Content-Type", "text/html");
                multipart.addBodyPart(textPart);
                multipart.addBodyPart(attachmentPart);
            } catch (IOException e) {
                e.printStackTrace();
            }
 		     
-		    message.setContent(multipart);    
-			message.setText("Your Booking is Successfull. Here is your booking ID: "+booking.getBookingId());
+			message.setContent(multipart);    
 			return message;
 		} catch (Exception e) {
 			e.printStackTrace(); 

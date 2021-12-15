@@ -333,22 +333,22 @@ window.onload=function(){
       </section>
     </div>
 
-<h1 class="text-center" style="padding-top:3%;font-size:60px;font-family:Manrope;"> Why us?</h1>
+<h1 class="text-center" style="padding-top:3%;font-size:48px;font-family:lato;"> Why us?</h1>
 <div  class="row">
 
-	<div class="col-7" style="padding:15%;padding-top:5%;font-family:Manrope;justify-content: center; font-size:25px;">
-		<p style="font-size:60px;font-weight:bold">We take care of your trips</p> Traveling is fun and exciting. OfCourse we don't want you to have any trouble for schedules, ticket booking, etc.., We are the ones who take care of all your needs.
+	<div class="col" style="padding:5% 20% 5% 10%;;font-size:24px;font-family:lato;color:white-smoke;text-align: justify;">
+		<p style="font-size:42px;font-weight:bold;color:white">We take care of your trips...</p> Going on a dream vacation sounds like paradise, but sometimes, life happens and your plans just don't work out. Traveling is fun and exciting. Ofcourse we don't want you to have any trouble for schedules, ticket booking, etc.., We are the ones who take care of all your needs.
 	</div>
 	
-	<div class="col-5">
+	<div class="col">
 		<img src="https://stories.freepiklabs.com/storage/22085/trip-pana-2143.png" >
 	</div>
 
 </div>
 
-<img src="https://cdn.dribbble.com/users/648922/screenshots/7085082/media/2930078d78c4de20c72bfdbf4d3eb8b8.png?compress=1&resize=1600x1200" style="width:100%">
+<img src="https://cdn.dribbble.com/users/648922/screenshots/7085082/media/2930078d78c4de20c72bfdbf4d3eb8b8.png?compress=1&resize=1600x1200" style="width:100%;">
 
-<h1 class="text-center" style="padding-top:3%;font-size:60px;font-family:Manrope;"> Exclusive Tickets</h1>
+<h1 class="text-center" style="padding-top:3%;font-size:48px;font-family:lato;"> Exclusive Tickets</h1>
 <div  class="row" style="padding:3%;padding-right:5%">
 	
 	<div class="col" >

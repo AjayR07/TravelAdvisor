@@ -20,7 +20,8 @@ public class UserDetailsImpl implements UserDetails {
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		// TODO Auto-generated method stub
-		return Collections.singleton(new SimpleGrantedAuthority("USER"));
+		System.out.println(user.getRole());
+		return Collections.singleton(new SimpleGrantedAuthority(user.getRole()));
 	}
 
 	@Override

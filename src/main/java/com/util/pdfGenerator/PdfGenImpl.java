@@ -43,7 +43,7 @@ public class PdfGenImpl implements PdfGenerator,Serializable{
             document.add(p);
             
             Paragraph p2 = new Paragraph();
-            p2.add(""); //no alignment
+            p2.add("Your Travel Partner"); //no alignment
             document.add(p2);
             
             Font f = new Font();
@@ -102,7 +102,7 @@ public class PdfGenImpl implements PdfGenerator,Serializable{
 	System.out.println("Hurrah!  PDF Generated successfully.....");
 	System.out.println(f.getAbsolutePath());
 	System.out.println(f.getPath());
-	return f.getAbsolutePath();
+	return FILE_NAME;
 		
 	}
 
