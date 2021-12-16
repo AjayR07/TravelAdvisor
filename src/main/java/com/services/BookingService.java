@@ -68,7 +68,20 @@ public class BookingService {
 	
 	
 	
-	
+public List<BookingDTO> getAllBookings() {
+		
+		List<BookingDTO> bookings= bookingRepo.findAll();
+		if(bookings!=null) {
+			for(BookingDTO booking:bookings) {
+				for(ProductsInBooking product:booking.getProducts()) {
+					String base64Encoded =  Base64.getEncoder().encodeToString(product.getItemImage());
+					product.setBase64imageFile(base64Encoded);
+				}
+			}
+			
+		}
+		return bookings;
+	}
 	
 	
 	

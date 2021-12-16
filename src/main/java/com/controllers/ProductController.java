@@ -3,6 +3,8 @@ package com.controllers;
 
 import java.security.Principal;
 
+import javax.servlet.http.HttpServletRequest;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.servlet.ModelAndView;
 
-
+import com.models.ItemDTO;
 import com.services.CartServiceImpl;
 import com.services.ItemService;
 import com.services.MyUserDetailsService;
@@ -55,6 +57,14 @@ public class ProductController {
 		return model;
 	}
 	
+	
+	public ModelAndView addProducts(HttpServletRequest request,ModelAndView model) {
+		ItemDTO item=ItemDTO.getInstance(request.getParameter("ename"),request.getParameter("edesc"), itemService.imgToBlob("assets/scuba_1.jpg"), 1,"hour", Float.parseFloat(request.getParameter("price")), 30);
+		model.addObject("success", "Event Added Successfully");
+		model.setViewName("admin");
+		return model;
+		
+	}
 
 	
 }

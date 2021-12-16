@@ -1,6 +1,9 @@
 package com.controllers;
 
 import java.security.Principal;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -19,6 +22,7 @@ import com.razorpay.RazorpayException;
 import com.razorpay.Utils;
 import com.services.BookingService;
 import com.services.MyUserDetailsService;
+import com.util.excel.ExcelGeneratorImpl;
 
 @Controller
 public class BookingController {
@@ -29,6 +33,9 @@ public class BookingController {
 	@Autowired
 	private MyUserDetailsService userService;
 
+	@Autowired
+	private ExcelGeneratorImpl excelImpl;
+	
 	public BookingService getBookingService() {
 		return bookingService;
 	}
@@ -48,7 +55,18 @@ public class BookingController {
 		this.userService = userService;
 	}
 
-
+	@GetMapping(value="/booking/export")
+	public void bookingExport(HttpServletRequest request,HttpServletResponse response) throws Exception {
+		response.setContentType("application/octet-stream");
+        DateFormat dateFormatter = new SimpleDateFormat("yyyy-MM-dd_HH:mm:ss");
+        String currentDateTime = dateFormatter.format(new Date());
+         
+        String headerKey = "Content-Disposition";
+        String headerValue = "attachment; filename=Bookings_" + currentDateTime + ".xlsx";
+        response.setHeader(headerKey, headerValue);
+        excelImpl.generateExcel(response);
+	}
+	
 	@GetMapping(value="/booking")
 	public void bookGet(HttpServletRequest request,HttpServletResponse response) throws Exception {
 		 RazorpayClient client=null;

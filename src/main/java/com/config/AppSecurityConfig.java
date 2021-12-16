@@ -22,10 +22,12 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter{
 	// in order to say we dont need spring default page 
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
+//		.authorizeRequests().antMatchers("/admin").hasRole("admin").and().
 		http
 		.authorizeRequests()
 		.antMatchers("/admin").hasAuthority("ROLE_ADMIN") 
 		.and().authorizeRequests().antMatchers("/products/**").authenticated()
+
 		.and().authorizeRequests().antMatchers("/cart").authenticated()
 		.and().authorizeRequests().antMatchers("/login","/register","/forgotPass").permitAll()
 				.and()
