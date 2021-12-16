@@ -9,6 +9,7 @@ public class AdminController
 {
 	@GetMapping(value="/admin")
 	public ModelAndView adminPage(ModelAndView model) {
+		System.out.println("helloooo");
 		model.setViewName("admin");
 		return model;
 		

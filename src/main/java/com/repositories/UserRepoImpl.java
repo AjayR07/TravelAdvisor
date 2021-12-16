@@ -62,7 +62,7 @@ public class UserRepoImpl implements UserRepo {
 
 		{
 			u.setUsername(uname);
-			u.setRole("USER");
+			u.setRole("ROLE_ADMIN");
 			u.setFlag(0);
 			u.setMail(email);
 			u.setPhonenum((phno));

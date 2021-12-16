@@ -20,6 +20,7 @@ public class UserDetailsImpl implements UserDetails {
 	@Override
 	public Collection<? extends GrantedAuthority> getAuthorities() {
 		// TODO Auto-generated method stub
+		System.out.println("inside role");
 		System.out.println(user.getRole());
 		return Collections.singleton(new SimpleGrantedAuthority(user.getRole()));
 	}
@@ -27,6 +28,7 @@ public class UserDetailsImpl implements UserDetails {
 	@Override
 	public String getPassword() {
 		// TODO Auto-generated method stub
+		System.out.println("inside Password");
 		return user.getPassword();
 	}
 
