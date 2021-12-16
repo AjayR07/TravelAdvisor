@@ -18,6 +18,7 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/forgotModal.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<link href="${pageContext.request.contextPath}/css/toast.css" rel="stylesheet" />
  <link rel="stylesheet" href="css/header.css">
     <title>Trip Ad ~ Admin</title>
     <style>
@@ -218,6 +219,9 @@ table.dataTable {
     </style>
     <script>
         $(document).ready(function() {
+        if("${success}"){
+        launch_toast();
+        }
             $("#example").DataTable({
                 aaSorting: [],
                 responsive: true,
@@ -246,8 +250,13 @@ table.dataTable {
            	$("#add").click(()=>{
 		$('#myModal').modal('show');
 });
-       });
 
+       });
+			function launch_toast() {
+				    var x = document.getElementById("toast")
+				    x.className = "show";
+				    setTimeout(function(){ x.className = x.className.replace("show", ""); }, 5000);
+				}
  </script>
     
   </head>
@@ -343,7 +352,7 @@ table.dataTable {
 				<h4 class="modal-title w-100">Add Event</h4>	
 			</div>
 			
-			<form action="POST" action="/product/add" enctype="multipart/form-data">
+			<form method="POST" action="/products/add" enctype="multipart/form-data">
 				<div class="height-100 d-flex justify-content-center align-items-center">
 				    <div class="position-relative">
 				        <div class=" p-2 text-center">
@@ -353,7 +362,7 @@ table.dataTable {
 							</div>
 							<div class="mb-3">
 							  <label for="exampleFormControlTextarea1" class="form-label">Event Description</label>
-							  <textarea class="form-control" name="edesc" id="exampleFormControlTextarea1" rows="3"></textarea>
+							  <textarea class="form-control" name="edesc" placeholder="Event Description" id="exampleFormControlTextarea1" rows="3"></textarea>
 							</div>
 						<!--	<div class="mb-3">
 							  <label for="exampleFormControlTextarea1" class="form-label">Event Category</label>
@@ -367,9 +376,14 @@ table.dataTable {
 							</div>-->
 							 <label for="exampleFormControlTextarea1" class="form-label">Event Price</label>
 							<div class="input-group mb-3">
-							  <span class="input-group-text">$</span>
-							  
-							  <input type="text" name="price" class="form-control" aria-label="amount (with dot and two decimal places)"><span class="input-group-text">.00</span>
+							
+							  <span class="input-group-text">&#8377;</span>
+							  <input type="number" name="price" placeholder="Total Charges" class="form-control" aria-label="amount (with dot and two decimal places)">
+							</div>
+							
+							<div class="mb-3">
+							  <label for="exampleFormControlTextarea1" class="form-label">Tickets Availability/Day</label>
+							  <input type="number" name="eavail" placeholder="Availability" class="form-control" >
 							</div>
 							<div class="mb-3">
 							  <label for="formFile" class="form-label">Upload Image</label>
@@ -385,6 +399,7 @@ table.dataTable {
 			</form>
 		</div>
 	</div>
-</div>  
+</div>  <div id="toast" ><div id="success"><div id="img" ><i class="fa fa-check icon"></i></div><div id="desc">Product added successfully..!</div></div></div>
+
   </body>
 </html>

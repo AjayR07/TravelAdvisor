@@ -62,7 +62,7 @@ public class UserRepoImpl implements UserRepo {
 
 		{
 			u.setUsername(uname);
-			u.setRole("ROLE_ADMIN");
+			u.setRole("USER");
 			u.setFlag(0);
 			u.setMail(email);
 			u.setPhonenum((phno));
@@ -89,6 +89,33 @@ public class UserRepoImpl implements UserRepo {
 		user.setPassword(generatedSecuredPasswordHash);
 		factory.getCurrentSession().save(user);
 		return 1;
+	}
+	
+	public int createAdmin(String uname,String email,String pass,String phno) {
+		// TODO Auto-generated method stub
+				User u  =new User(); 		
+				Criteria cr = factory.getCurrentSession().createCriteria(User.class);
+				cr.add(Restrictions.eq("Mail",email));
+				List results = cr.list();
+
+				boolean ans = results.isEmpty();
+				if (ans == true)
+
+				{
+					u.setUsername(uname);
+					u.setRole("ROLE_ADMIN");
+					u.setFlag(0);
+					u.setMail(email);
+					u.setPhonenum((phno));
+					String generatedSecuredPasswordHash = BCrypt.hashpw(pass, BCrypt.gensalt(8));
+					System.out.println(generatedSecuredPasswordHash);
+					u.setPassword(generatedSecuredPasswordHash);
+					factory.getCurrentSession().save(u);
+					System.out.println("saved");
+					return 1;
+				}
+				System.out.println("not saved");
+				return 0;
 	}
 
 }

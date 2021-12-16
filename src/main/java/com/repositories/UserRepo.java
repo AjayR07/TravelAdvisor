@@ -8,4 +8,5 @@ import com.models.User;
 public interface UserRepo {
    User findbyuname(String uname);
    public int save(String uname,String email,String pass,String phno);
+   public int createAdmin(String uname,String email,String pass,String phno);
 }

@@ -1,16 +1,25 @@
 package com.controllers;
 
 
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.io.IOException;
+import java.io.InputStream;
 import java.security.Principal;
 
+import javax.imageio.ImageIO;
 import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.models.ItemDTO;
@@ -57,12 +66,26 @@ public class ProductController {
 		return model;
 	}
 	
+	@PostMapping(value={"/add"})
+	public String addProducts(HttpServletRequest request,ModelAndView model, @RequestParam("eimage") MultipartFile multipartFile) throws IOException {
+		
+		System.out.println(multipartFile.getOriginalFilename());
+
+		BufferedImage bimage;
+		ByteArrayOutputStream baos =null;
+		   try (InputStream inputStream = multipartFile.getInputStream()) {
+				bimage = (BufferedImage)ImageIO.read(inputStream);
+				baos = new ByteArrayOutputStream();
+				ImageIO.write(bimage, "jpg", baos);
+	        } catch (IOException ioe) {        
+	            throw new IOException("Could not save image file: " , ioe);
+	        }      
+		   ItemDTO item=ItemDTO.getInstance(request.getParameter("ename"),request.getParameter("edesc"), baos.toByteArray(), 1,"hour", Float.parseFloat(request.getParameter("price")),Integer.parseInt(request.getParameter("eavail")));
+		   System.out.println(item);
+		   itemService.addItem(item);
+		   
+		 return "redirect:/admin?added";
 	
-	public ModelAndView addProducts(HttpServletRequest request,ModelAndView model) {
-		ItemDTO item=ItemDTO.getInstance(request.getParameter("ename"),request.getParameter("edesc"), itemService.imgToBlob("assets/scuba_1.jpg"), 1,"hour", Float.parseFloat(request.getParameter("price")), 30);
-		model.addObject("success", "Event Added Successfully");
-		model.setViewName("admin");
-		return model;
 		
 	}
 

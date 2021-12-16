@@ -312,6 +312,7 @@ window.onload=function(){
     <a href="#contact">Contact</a>
     <a href="/register">Register</a>
     <a href="${pageContext.request.contextPath}/login">Login</a>
+    <a href="${pageContext.request.contextPath}/admin">Admin Login</a>
     <a href="#about" style="float:right;padding: 24px 2px;"><i class="fa fa-search"></i></a>
     <a href="${pageContext.request.contextPath}/login" style="float:right;padding: 24px 2px;"><i class="fa fa-user-circle-o"></i></a>
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="NavBar()">&#9776;</a>
@@ -377,10 +378,10 @@ window.onload=function(){
 				<h4 class="modal-title w-100">Awesome!</h4>	
 			</div>
 			<div class="modal-body">
-				<p class="text-center">Your User Registration has been confirmed. Check your email for details.</p>
+				<p class="text-center">Your User Registration has been confirmed. Kindly login enjoy our service.</p>
 			</div>
 			<div class="modal-footer">
-				<button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+				<button class="btn btn-success btn-block" data-dismiss="modal" onclick="location.href='/login'">OK</button>
 			</div>
 		</div>
 	</div>
