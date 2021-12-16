@@ -3148,3 +3148,1055 @@ Caused by: java.lang.Error: Unresolved compilation problem:
 2021-12-15 15:47:07.280  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
 2021-12-15 15:47:07.283  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 2.026 seconds (JVM running for 1760.047)
 2021-12-15 15:47:07.285  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 15:47:46.241  INFO Ajay-PC --- [n(18)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-15 20:11:57.055  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:11:57.061  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:11:57.108  INFO Ajay-PC --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-15 20:11:57.108  INFO Ajay-PC --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-15 20:11:58.751  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:11:59.082  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 322 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:11:59.612  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:11:59.620  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:11:59.621  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:11:59.621  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:11:59.800  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:11:59.808  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:11:59.809  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2699 ms
+2021-12-15 20:11:59.981  INFO Ajay-PC --- [  restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-15 20:12:00.108  INFO Ajay-PC --- [  restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-15 20:12:00.296  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:12:01.048  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:12:01.535  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5eae8762, org.springframework.security.web.context.SecurityContextPersistenceFilter@138e9cca, org.springframework.security.web.header.HeaderWriterFilter@5c6547b8, org.springframework.security.web.authentication.logout.LogoutFilter@58440855, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7f973886, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4aeee58b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40cec245, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6eff9b45, org.springframework.security.web.session.SessionManagementFilter@1a89fe27, org.springframework.security.web.access.ExceptionTranslationFilter@65a680c6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2017819a]
+2021-12-15 20:12:01.799  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:12:01.813  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:12:01.868  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:12:01.877  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 5.093 seconds (JVM running for 6.02)
+2021-12-15 20:12:08.197  INFO Ajay-PC --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 20:12:08.198  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-12-15 20:12:08.200  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-12-15 20:12:11.261  INFO Ajay-PC --- [nio-8080-exec-7] c.c.LoginController                      : User trying to login
+2021-12-15 20:12:29.551  WARN Ajay-PC --- [nio-8080-exec-1] o.h.o.deprecation                        : HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2021-12-15 20:12:29.742  WARN Ajay-PC --- [nio-8080-exec-2] o.h.o.deprecation                        : HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2021-12-15 20:15:34.712  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:15:34.712  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:15:35.765  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:15:36.037  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 272 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:15:36.133  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:15:36.133  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:15:36.135  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:15:36.135  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:15:36.206  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:15:36.208  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:15:36.208  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1492 ms
+2021-12-15 20:15:36.228  WARN Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [2709256A9A925352BDC20B392AF02CFE]
+2021-12-15 20:15:36.260  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:15:36.423  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:15:36.552  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@223993b4, org.springframework.security.web.context.SecurityContextPersistenceFilter@43f448cc, org.springframework.security.web.header.HeaderWriterFilter@4ea2b88b, org.springframework.security.web.authentication.logout.LogoutFilter@525fe4d7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1a4520f4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4bc2f89d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@107f678e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6b3a1f0d, org.springframework.security.web.session.SessionManagementFilter@6638bd0e, org.springframework.security.web.access.ExceptionTranslationFilter@52cb5eb9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@d66dac0]
+2021-12-15 20:15:36.648  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:15:36.660  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:15:36.663  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:15:36.667  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.998 seconds (JVM running for 220.81)
+2021-12-15 20:15:36.669  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 20:15:57.746  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:15:57.746  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:15:58.749  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:15:58.983  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 234 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:15:59.044  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:15:59.044  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:15:59.045  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:15:59.045  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:15:59.099  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:15:59.100  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:15:59.100  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1352 ms
+2021-12-15 20:15:59.142  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:15:59.300  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:15:59.403  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2c5f928f, org.springframework.security.web.context.SecurityContextPersistenceFilter@229e7419, org.springframework.security.web.header.HeaderWriterFilter@10c4904e, org.springframework.security.web.authentication.logout.LogoutFilter@63319ba5, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6ae00798, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d2b4995, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7959e69e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c99ae26, org.springframework.security.web.session.SessionManagementFilter@3f1e8a44, org.springframework.security.web.access.ExceptionTranslationFilter@77c3033c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@201c3e3f]
+2021-12-15 20:15:59.465  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:15:59.471  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:15:59.474  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:15:59.477  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.758 seconds (JVM running for 243.62)
+2021-12-15 20:15:59.478  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 20:17:51.245  INFO Ajay-PC --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 20:17:51.245  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-12-15 20:17:51.247  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2021-12-15 20:21:43.426 ERROR Ajay-PC --- [nio-8080-exec-4] o.a.c.c.C.[.[.[.[jsp]                    : Servlet.service() for servlet [jsp] threw exception
+javax.el.PropertyNotFoundException: Property [price] not found on type [com.models.ItemDTO]
+	at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:251)
+	at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:203)
+	at javax.el.BeanELResolver.property(BeanELResolver.java:324)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:83)
+	at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:124)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+	at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:692)
+	at org.apache.jsp.views1.admin_jsp._jspx_meth_c_005fforEach_005f0(admin_jsp.java:474)
+	at org.apache.jsp.views1.admin_jsp._jspService(admin_jsp.java:393)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequestDispatcher.forward(HeaderWriterFilter.java:170)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:219)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2021-12-15 20:21:43.427 ERROR Ajay-PC --- [nio-8080-exec-4] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [An exception occurred processing [/views1/admin.jsp] at line [283]
+
+280:                   </td>
+281:                   <td> ${product.itemDesc}</td>
+282:                   <td>${product.unit}/hour</td>
+283:                   <td>${product.price}</td>
+284:                   <td>
+285:                     <div class="badge badge-success badge-success-alt">${product.availability}</div>
+286:                   </td>
+
+
+Stacktrace:] with root cause
+javax.el.PropertyNotFoundException: Property [price] not found on type [com.models.ItemDTO]
+	at javax.el.BeanELResolver$BeanProperties.get(BeanELResolver.java:251)
+	at javax.el.BeanELResolver$BeanProperties.access$300(BeanELResolver.java:203)
+	at javax.el.BeanELResolver.property(BeanELResolver.java:324)
+	at javax.el.BeanELResolver.getValue(BeanELResolver.java:83)
+	at org.apache.jasper.el.JasperELResolver.getValue(JasperELResolver.java:124)
+	at org.apache.el.parser.AstValue.getValue(AstValue.java:168)
+	at org.apache.el.ValueExpressionImpl.getValue(ValueExpressionImpl.java:189)
+	at org.apache.jasper.runtime.PageContextImpl.proprietaryEvaluate(PageContextImpl.java:692)
+	at org.apache.jsp.views1.admin_jsp._jspx_meth_c_005fforEach_005f0(admin_jsp.java:474)
+	at org.apache.jsp.views1.admin_jsp._jspService(admin_jsp.java:393)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:466)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:379)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:327)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:711)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:459)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:385)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:313)
+	at org.springframework.security.web.header.HeaderWriterFilter$HeaderWriterRequestDispatcher.forward(HeaderWriterFilter.java:170)
+	at org.springframework.web.servlet.view.InternalResourceView.renderMergedOutputModel(InternalResourceView.java:171)
+	at org.springframework.web.servlet.view.AbstractView.render(AbstractView.java:316)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1400)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1145)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1084)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:655)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:219)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:213)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:197)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:540)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:135)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:895)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1722)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2021-12-15 20:28:53.970  INFO Ajay-PC --- [nio-8080-exec-9] c.c.LoginController                      : User trying to login
+2021-12-15 20:40:04.716  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:40:04.717  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:40:05.780  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:40:05.987  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 207 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:40:06.065  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:40:06.066  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:40:06.066  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:40:06.066  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:40:06.120  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:40:06.121  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:40:06.122  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1403 ms
+2021-12-15 20:40:06.178  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:40:06.338  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:40:06.447  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7fab6bde, org.springframework.security.web.context.SecurityContextPersistenceFilter@359dcfe4, org.springframework.security.web.header.HeaderWriterFilter@7d51f1b7, org.springframework.security.web.authentication.logout.LogoutFilter@f14cd75, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7be717, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2d3ef1ec, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f9071b5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@134a3782, org.springframework.security.web.session.SessionManagementFilter@1583c6ba, org.springframework.security.web.access.ExceptionTranslationFilter@e22d328, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@557818a6]
+2021-12-15 20:40:06.536  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:40:06.543  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:40:06.546  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:40:06.549  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.867 seconds (JVM running for 1690.693)
+2021-12-15 20:40:06.550  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 20:51:14.779  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:51:14.779  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:51:15.758  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:51:15.962  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 203 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:51:16.034  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:51:16.034  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:51:16.034  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:51:16.035  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:51:16.084  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:51:16.085  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:51:16.085  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1304 ms
+2021-12-15 20:51:16.123  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:51:16.230  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:51:16.338  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@21c67b7a, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b574643, org.springframework.security.web.header.HeaderWriterFilter@65ba3ae8, org.springframework.security.web.authentication.logout.LogoutFilter@35dec8ec, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@544391fc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e903e63, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1a493c23, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@df312e0, org.springframework.security.web.session.SessionManagementFilter@6045d31b, org.springframework.security.web.access.ExceptionTranslationFilter@25fa190b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31451367]
+2021-12-15 20:51:16.413  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:51:16.419  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:51:16.422  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:51:16.425  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.679 seconds (JVM running for 2360.568)
+2021-12-15 20:51:16.426  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 20:51:23.123  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:51:23.124  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:51:24.068  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:51:24.292  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 224 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:51:24.352  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:51:24.353  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:51:24.353  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:51:24.353  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:51:24.402  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:51:24.403  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:51:24.403  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1277 ms
+2021-12-15 20:51:24.433  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:51:24.536  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:51:24.634  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2dd3e2d5, org.springframework.security.web.context.SecurityContextPersistenceFilter@6126ed30, org.springframework.security.web.header.HeaderWriterFilter@2c589969, org.springframework.security.web.authentication.logout.LogoutFilter@7dae0fa9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@59ec0626, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a247f87, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@725f2e7b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4dd397c0, org.springframework.security.web.session.SessionManagementFilter@36bdf19b, org.springframework.security.web.access.ExceptionTranslationFilter@4dc6c7f4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@36b95955]
+2021-12-15 20:51:24.698  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:51:24.706  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:51:24.709  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:51:24.712  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.613 seconds (JVM running for 2368.855)
+2021-12-15 20:51:24.713  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 20:51:50.944  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:51:50.944  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:51:51.884  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:51:52.087  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 202 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:51:52.150  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:51:52.151  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:51:52.151  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:51:52.151  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:51:52.205  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:51:52.206  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:51:52.206  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1260 ms
+2021-12-15 20:51:52.242  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:51:52.351  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:51:52.478  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a51ea4c, org.springframework.security.web.context.SecurityContextPersistenceFilter@dcc58e0, org.springframework.security.web.header.HeaderWriterFilter@5b9954ac, org.springframework.security.web.authentication.logout.LogoutFilter@138c1f60, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2f0bf3bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4710fcf1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@56bdfc8b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@675420a1, org.springframework.security.web.session.SessionManagementFilter@40ed4243, org.springframework.security.web.access.ExceptionTranslationFilter@1dcaeb9b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@83377ad]
+2021-12-15 20:51:52.534  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:51:52.541  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:51:52.544  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:51:52.547  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.629 seconds (JVM running for 2396.69)
+2021-12-15 20:51:52.548  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 20:52:24.605  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:52:24.606  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:52:25.492  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:52:25.709  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 216 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:52:25.784  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:52:25.784  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:52:25.784  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:52:25.785  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:52:25.843  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:52:25.844  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:52:25.844  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1236 ms
+2021-12-15 20:52:25.878  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:52:25.984  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:52:26.095  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@65507ae1, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f3f5ddf, org.springframework.security.web.header.HeaderWriterFilter@4229af70, org.springframework.security.web.authentication.logout.LogoutFilter@3aad875e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@70b4325d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11511e35, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e8c7140, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@21783ff6, org.springframework.security.web.session.SessionManagementFilter@11541008, org.springframework.security.web.access.ExceptionTranslationFilter@6ca25643, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a51a096]
+2021-12-15 20:52:26.176  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:52:26.182  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:52:26.186  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:52:26.191  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.611 seconds (JVM running for 2430.334)
+2021-12-15 20:52:26.192  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 20:52:46.092  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:52:46.093  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:52:47.035  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:52:47.237  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 201 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:52:47.307  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:52:47.307  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:52:47.308  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:52:47.308  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:52:47.354  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:52:47.355  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:52:47.355  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1260 ms
+2021-12-15 20:52:47.386  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:52:47.492  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:52:47.585  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@572636d5, org.springframework.security.web.context.SecurityContextPersistenceFilter@39e0b04e, org.springframework.security.web.header.HeaderWriterFilter@7a017ebb, org.springframework.security.web.authentication.logout.LogoutFilter@29045f43, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7cd351ba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3fb472bf, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e313754, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23199e26, org.springframework.security.web.session.SessionManagementFilter@3dfcc995, org.springframework.security.web.access.ExceptionTranslationFilter@60ecc7da, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@58858b78]
+2021-12-15 20:52:47.647  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:52:47.653  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:52:47.655  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:52:47.659  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.598 seconds (JVM running for 2451.803)
+2021-12-15 20:52:47.660  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 20:53:08.503  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:53:08.503  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:53:09.389  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:53:09.636  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 246 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:53:09.692  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:53:09.693  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:53:09.694  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:53:09.694  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:53:09.742  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:53:09.743  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:53:09.743  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1237 ms
+2021-12-15 20:53:09.782  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:53:09.887  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:53:09.983  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4d04932e, org.springframework.security.web.context.SecurityContextPersistenceFilter@59f7c06c, org.springframework.security.web.header.HeaderWriterFilter@63a378a9, org.springframework.security.web.authentication.logout.LogoutFilter@51b407eb, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4f2be532, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16b9cfcd, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6e278b83, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4fb77741, org.springframework.security.web.session.SessionManagementFilter@7745f3bf, org.springframework.security.web.access.ExceptionTranslationFilter@529551a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@584f1f7c]
+2021-12-15 20:53:10.041  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:53:10.047  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:53:10.051  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:53:10.055  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.579 seconds (JVM running for 2474.198)
+2021-12-15 20:53:10.057  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 20:55:30.185  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:55:30.186  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:55:31.159  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:55:31.402  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 242 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:55:31.469  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:55:31.469  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:55:31.470  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:55:31.470  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:55:31.527  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:55:31.528  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:55:31.528  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1341 ms
+2021-12-15 20:55:31.590  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:55:31.734  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:55:31.850  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@44d2d33b, org.springframework.security.web.context.SecurityContextPersistenceFilter@7d944a41, org.springframework.security.web.header.HeaderWriterFilter@78c0483b, org.springframework.security.web.authentication.logout.LogoutFilter@1d68dd14, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@29093da2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@cf74c0d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@768c5c38, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ecad9ac, org.springframework.security.web.session.SessionManagementFilter@441e0aea, org.springframework.security.web.access.ExceptionTranslationFilter@188d33e5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@47a9c900]
+2021-12-15 20:55:31.948  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:55:31.955  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:55:31.958  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:55:31.962  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.803 seconds (JVM running for 2616.105)
+2021-12-15 20:55:31.963  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 20:55:33.509  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:55:33.509  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:55:34.419  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:55:34.657  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 237 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:55:34.710  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:55:34.710  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:55:34.711  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:55:34.711  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:55:34.757  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:55:34.758  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:55:34.758  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1247 ms
+2021-12-15 20:55:34.795  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:55:34.929  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:55:35.016  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e5bfb5c, org.springframework.security.web.context.SecurityContextPersistenceFilter@7b125a, org.springframework.security.web.header.HeaderWriterFilter@238ccd15, org.springframework.security.web.authentication.logout.LogoutFilter@1d63cd4c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6711fd83, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@782c174b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d0d893e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5601c0b3, org.springframework.security.web.session.SessionManagementFilter@b9e6736, org.springframework.security.web.access.ExceptionTranslationFilter@28fa0ab4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e29ffee]
+2021-12-15 20:55:35.072  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:55:35.077  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:55:35.079  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:55:35.083  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.601 seconds (JVM running for 2619.226)
+2021-12-15 20:55:35.084  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 20:55:57.212  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:55:57.213  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:55:58.115  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:55:58.328  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 212 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:55:58.398  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:55:58.398  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:55:58.399  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:55:58.399  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:55:58.445  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:55:58.446  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:55:58.446  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1232 ms
+2021-12-15 20:55:58.477  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:55:58.607  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:55:58.698  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@e4300a, org.springframework.security.web.context.SecurityContextPersistenceFilter@1eb3d24f, org.springframework.security.web.header.HeaderWriterFilter@2ef898c5, org.springframework.security.web.authentication.logout.LogoutFilter@74b19ed7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7a0bd4aa, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@543fbeb0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3e6b2a42, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47e9fa96, org.springframework.security.web.session.SessionManagementFilter@2c8cc7a8, org.springframework.security.web.access.ExceptionTranslationFilter@1b0a3990, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31f875e5]
+2021-12-15 20:55:58.751  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:55:58.757  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:55:58.759  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:55:58.762  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.575 seconds (JVM running for 2642.906)
+2021-12-15 20:55:58.763  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 20:56:08.561  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 20:56:08.561  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 20:56:09.465  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 20:56:09.685  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 220 ms. Found 4 JPA repository interfaces.
+2021-12-15 20:56:09.740  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 20:56:09.740  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:56:09.740  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 20:56:09.740  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 20:56:09.789  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 20:56:09.792  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 20:56:09.792  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1229 ms
+2021-12-15 20:56:09.831  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 20:56:09.963  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 20:56:10.063  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c88803e, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e187049, org.springframework.security.web.header.HeaderWriterFilter@16518089, org.springframework.security.web.authentication.logout.LogoutFilter@376a8271, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7ff0a9e3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3e14d786, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@245b4d05, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2179fb4, org.springframework.security.web.session.SessionManagementFilter@69dcfc97, org.springframework.security.web.access.ExceptionTranslationFilter@156eb05c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@798396e9]
+2021-12-15 20:56:10.124  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 20:56:10.131  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 20:56:10.133  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 20:56:10.137  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.6 seconds (JVM running for 2654.28)
+2021-12-15 20:56:10.138  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:01:44.665  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:01:44.666  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:01:45.619  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:01:45.870  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 250 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:01:45.944  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:01:45.944  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:01:45.945  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:01:45.946  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:01:45.995  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:01:45.997  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:01:45.997  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1330 ms
+2021-12-15 21:01:46.044  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:01:46.155  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:01:46.260  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7087385e, org.springframework.security.web.context.SecurityContextPersistenceFilter@59ab276a, org.springframework.security.web.header.HeaderWriterFilter@3e1cae90, org.springframework.security.web.authentication.logout.LogoutFilter@70ee89a7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@75251be0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d3f19f7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@168c56ee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23a8b7de, org.springframework.security.web.session.SessionManagementFilter@6911e0ba, org.springframework.security.web.access.ExceptionTranslationFilter@56685d1d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@761e0e54]
+2021-12-15 21:01:46.340  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:01:46.349  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:01:46.351  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:01:46.355  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.718 seconds (JVM running for 2990.497)
+2021-12-15 21:01:46.355  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:02:00.333  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:02:00.334  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:02:01.260  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:02:01.476  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 216 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:02:01.544  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:02:01.544  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:02:01.545  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:02:01.545  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:02:01.594  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:02:01.596  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:02:01.596  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1261 ms
+2021-12-15 21:02:01.631  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:02:01.766  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:02:01.867  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16258a13, org.springframework.security.web.context.SecurityContextPersistenceFilter@7e2d92f8, org.springframework.security.web.header.HeaderWriterFilter@6d004790, org.springframework.security.web.authentication.logout.LogoutFilter@3b05887b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@e657a09, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2e2fe39e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@417c0d0c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6598f73d, org.springframework.security.web.session.SessionManagementFilter@61f1291e, org.springframework.security.web.access.ExceptionTranslationFilter@4672d40f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2c7a7e8f]
+2021-12-15 21:02:01.938  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:02:01.945  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:02:01.948  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:02:01.952  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.643 seconds (JVM running for 3006.095)
+2021-12-15 21:02:01.953  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:03:49.764  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:03:49.764  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:03:50.709  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:03:50.921  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 212 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:03:50.982  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:03:50.982  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:03:50.983  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:03:50.983  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:03:51.032  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:03:51.033  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:03:51.033  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1268 ms
+2021-12-15 21:03:51.068  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:03:51.200  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:03:51.312  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c564dbe, org.springframework.security.web.context.SecurityContextPersistenceFilter@4904cedd, org.springframework.security.web.header.HeaderWriterFilter@6a7caedf, org.springframework.security.web.authentication.logout.LogoutFilter@55b8a4d2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3f67df38, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2ba503ba, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24204a47, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@ab8a8f7, org.springframework.security.web.session.SessionManagementFilter@600fd29c, org.springframework.security.web.access.ExceptionTranslationFilter@2e799750, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31349413]
+2021-12-15 21:03:51.398  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:03:51.403  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:03:51.406  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:03:51.410  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.672 seconds (JVM running for 3115.553)
+2021-12-15 21:03:51.411  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:03:55.239  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:03:55.239  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:03:56.170  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:03:56.383  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 213 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:03:56.435  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:03:56.435  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:03:56.436  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:03:56.436  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:03:56.485  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:03:56.486  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:03:56.486  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1245 ms
+2021-12-15 21:03:56.521  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:03:56.656  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:03:56.747  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@cbba338, org.springframework.security.web.context.SecurityContextPersistenceFilter@606838b3, org.springframework.security.web.header.HeaderWriterFilter@13c03686, org.springframework.security.web.authentication.logout.LogoutFilter@56f044d1, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@7b1acdfe, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1b02e300, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@9e482e0, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1494d0ab, org.springframework.security.web.session.SessionManagementFilter@5bb4ba43, org.springframework.security.web.access.ExceptionTranslationFilter@6fa29668, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@781d72c5]
+2021-12-15 21:03:56.806  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:03:56.816  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:03:56.818  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:03:56.822  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.607 seconds (JVM running for 3120.965)
+2021-12-15 21:03:56.823  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:04:48.935  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:04:48.935  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:04:49.919  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:04:50.132  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 212 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:04:50.190  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:04:50.190  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:04:50.190  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:04:50.191  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:04:50.239  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:04:50.240  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:04:50.240  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1304 ms
+2021-12-15 21:04:50.270  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:04:50.399  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:04:50.493  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@73cc21ae, org.springframework.security.web.context.SecurityContextPersistenceFilter@5cb18858, org.springframework.security.web.header.HeaderWriterFilter@1337bcd, org.springframework.security.web.authentication.logout.LogoutFilter@10dd396e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5210a55c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4f65462, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e01ba22, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@55b38eef, org.springframework.security.web.session.SessionManagementFilter@76750a81, org.springframework.security.web.access.ExceptionTranslationFilter@1bd868e4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1e611de8]
+2021-12-15 21:04:50.549  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:04:50.554  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:04:50.557  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:04:50.560  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.649 seconds (JVM running for 3174.703)
+2021-12-15 21:04:50.562  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:05:10.758  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:05:10.758  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:05:11.707  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:05:11.923  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 215 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:05:11.997  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:05:11.998  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:05:11.998  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:05:11.998  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:05:12.045  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:05:12.047  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:05:12.047  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1287 ms
+2021-12-15 21:05:12.079  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:05:12.184  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:05:12.275  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4b116f4, org.springframework.security.web.context.SecurityContextPersistenceFilter@2009d48c, org.springframework.security.web.header.HeaderWriterFilter@25142d5d, org.springframework.security.web.authentication.logout.LogoutFilter@6dc84e70, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1ca69d91, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7c0b8958, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78f12d41, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3d5c9024, org.springframework.security.web.session.SessionManagementFilter@5425f482, org.springframework.security.web.access.ExceptionTranslationFilter@5c6007c2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e6d9fa]
+2021-12-15 21:05:12.333  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:05:12.338  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:05:12.340  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:05:12.343  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.62 seconds (JVM running for 3196.486)
+2021-12-15 21:05:12.344  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:05:39.510  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:05:39.511  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:05:40.464  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:05:40.669  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 204 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:05:40.726  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:05:40.727  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:05:40.727  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:05:40.728  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:05:40.778  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:05:40.780  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:05:40.780  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1268 ms
+2021-12-15 21:05:40.812  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:05:40.948  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:05:41.041  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7e6c79ac, org.springframework.security.web.context.SecurityContextPersistenceFilter@40b274b0, org.springframework.security.web.header.HeaderWriterFilter@f1fefa7, org.springframework.security.web.authentication.logout.LogoutFilter@6113017d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@361cd3e2, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@12473950, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@62559e68, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@62d850af, org.springframework.security.web.session.SessionManagementFilter@5c318c75, org.springframework.security.web.access.ExceptionTranslationFilter@6c37d204, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@41e0e976]
+2021-12-15 21:05:41.096  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:05:41.102  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:05:41.103  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:05:41.108  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.623 seconds (JVM running for 3225.251)
+2021-12-15 21:05:41.110  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:06:03.200  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 1032 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:06:03.200  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:06:04.161  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:06:04.375  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 214 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:06:04.432  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:06:04.433  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:06:04.433  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:06:04.433  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:06:04.479  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:06:04.480  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:06:04.480  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1278 ms
+2021-12-15 21:06:04.512  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:06:04.626  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:06:04.704  WARN Ajay-PC --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookingController': Unsatisfied dependency expressed through field 'excelImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.util.excel.ExcelGeneratorImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-12-15 21:06:04.705  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2021-12-15 21:06:04.711  INFO Ajay-PC --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-15 21:06:04.735 ERROR Ajay-PC --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field excelImpl in com.controllers.BookingController required a bean of type 'com.util.excel.ExcelGeneratorImpl' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.util.excel.ExcelGeneratorImpl' in your configuration.
+
+2021-12-15 21:07:38.314  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 3112 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:07:38.322  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:07:38.365  INFO Ajay-PC --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-15 21:07:38.365  INFO Ajay-PC --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-15 21:07:39.639  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:07:39.936  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 289 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:07:40.436  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:07:40.445  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:07:40.445  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:07:40.445  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:07:40.637  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:07:40.646  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:07:40.646  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2281 ms
+2021-12-15 21:07:40.804  INFO Ajay-PC --- [  restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-15 21:07:40.935  INFO Ajay-PC --- [  restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-15 21:07:41.128  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:07:41.803  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:07:42.182  WARN Ajay-PC --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookingController': Unsatisfied dependency expressed through field 'excelImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.util.excel.ExcelGeneratorImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-12-15 21:07:42.185  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2021-12-15 21:07:42.194  INFO Ajay-PC --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-15 21:07:42.210 ERROR Ajay-PC --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field excelImpl in com.controllers.BookingController required a bean of type 'com.util.excel.ExcelGeneratorImpl' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.util.excel.ExcelGeneratorImpl' in your configuration.
+
+2021-12-15 21:07:59.283  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 11012 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:07:59.291  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:07:59.329  INFO Ajay-PC --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-15 21:07:59.329  INFO Ajay-PC --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-15 21:08:00.568  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:08:00.879  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 304 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:08:01.404  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:08:01.412  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:08:01.412  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:08:01.413  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:08:01.587  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:08:01.594  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:08:01.594  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2264 ms
+2021-12-15 21:08:01.740  INFO Ajay-PC --- [  restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-15 21:08:01.864  INFO Ajay-PC --- [  restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-15 21:08:02.047  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:08:02.674  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:08:03.021  WARN Ajay-PC --- [  restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'bookingController': Unsatisfied dependency expressed through field 'excelImpl'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.util.excel.ExcelGeneratorImpl' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-12-15 21:08:03.024  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2021-12-15 21:08:03.034  INFO Ajay-PC --- [  restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-12-15 21:08:03.049 ERROR Ajay-PC --- [  restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field excelImpl in com.controllers.BookingController required a bean of type 'com.util.excel.ExcelGeneratorImpl' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.util.excel.ExcelGeneratorImpl' in your configuration.
+
+2021-12-15 21:08:46.814  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 12152 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:08:46.822  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:08:46.863  INFO Ajay-PC --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-15 21:08:46.863  INFO Ajay-PC --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-15 21:08:48.121  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:08:48.433  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 305 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:08:48.938  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:08:48.946  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:08:48.946  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:08:48.947  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:08:49.115  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:08:49.122  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:08:49.123  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2259 ms
+2021-12-15 21:08:49.269  INFO Ajay-PC --- [  restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-15 21:08:49.392  INFO Ajay-PC --- [  restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-15 21:08:49.581  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:08:50.225  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:08:50.657  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1bacaec8, org.springframework.security.web.context.SecurityContextPersistenceFilter@51e7773a, org.springframework.security.web.header.HeaderWriterFilter@5ffa218c, org.springframework.security.web.authentication.logout.LogoutFilter@6c1069fa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@b75febc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@11b98e21, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3146cab7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13f47b4e, org.springframework.security.web.session.SessionManagementFilter@7dfdbd7f, org.springframework.security.web.access.ExceptionTranslationFilter@8280a2e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@25125cc2]
+2021-12-15 21:08:50.916  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:08:50.937  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:08:50.978  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:08:50.986  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 4.434 seconds (JVM running for 5.316)
+2021-12-15 21:08:54.470  INFO Ajay-PC --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 21:08:54.470  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-12-15 21:08:54.471  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-12-15 21:08:58.724  WARN Ajay-PC --- [nio-8080-exec-2] o.a.p.POIDocument                        : DocumentSummaryInformation property set came back as null
+2021-12-15 21:08:58.725  WARN Ajay-PC --- [nio-8080-exec-2] o.a.p.POIDocument                        : SummaryInformation property set came back as null
+2021-12-15 21:16:01.545  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 12152 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:16:01.545  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:16:02.523  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:16:02.747  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 224 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:16:02.831  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:16:02.832  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:16:02.832  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:16:02.832  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:16:02.904  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:16:02.906  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:16:02.906  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1359 ms
+2021-12-15 21:16:02.953  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:16:03.092  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:16:03.224  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@63c73e4e, org.springframework.security.web.context.SecurityContextPersistenceFilter@43ba6651, org.springframework.security.web.header.HeaderWriterFilter@6662b1e5, org.springframework.security.web.authentication.logout.LogoutFilter@4f7c0695, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@15cae5dc, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c649991, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f7ae461, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@536487e7, org.springframework.security.web.session.SessionManagementFilter@384b06be, org.springframework.security.web.access.ExceptionTranslationFilter@22a5ae91, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@63680169]
+2021-12-15 21:16:03.320  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:16:03.328  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:16:03.331  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:16:03.335  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.823 seconds (JVM running for 437.664)
+2021-12-15 21:16:03.336  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:17:06.654  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 12152 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:17:06.654  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:17:07.562  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:17:07.792  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 230 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:17:07.866  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:17:07.866  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:17:07.867  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:17:07.867  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:17:07.922  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:17:07.923  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:17:07.923  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1267 ms
+2021-12-15 21:17:07.961  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:17:08.122  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:17:08.236  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@152e099d, org.springframework.security.web.context.SecurityContextPersistenceFilter@e3cbbc5, org.springframework.security.web.header.HeaderWriterFilter@8824f96, org.springframework.security.web.authentication.logout.LogoutFilter@4e7600dc, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@314baa17, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b28d4ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@514cdce1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@64880374, org.springframework.security.web.session.SessionManagementFilter@6923bc99, org.springframework.security.web.access.ExceptionTranslationFilter@38afbfd0, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@71c6db89]
+2021-12-15 21:17:08.302  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:17:08.307  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:17:08.310  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:17:08.315  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.687 seconds (JVM running for 502.644)
+2021-12-15 21:17:08.316  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:21:08.504  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 12152 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:21:08.504  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:21:09.501  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:21:09.732  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 229 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:21:09.801  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:21:09.802  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:21:09.802  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:21:09.802  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:21:09.864  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:21:09.865  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:21:09.866  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1359 ms
+2021-12-15 21:21:09.909  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:21:10.078  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:21:10.239  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1939a768, org.springframework.security.web.context.SecurityContextPersistenceFilter@4bb58a89, org.springframework.security.web.header.HeaderWriterFilter@452755f0, org.springframework.security.web.authentication.logout.LogoutFilter@2a07e819, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@aeec000, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@755ad2e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@78a2e0e1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@44b387eb, org.springframework.security.web.session.SessionManagementFilter@1d704b57, org.springframework.security.web.access.ExceptionTranslationFilter@38fe8a43, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@63b2c2f3]
+2021-12-15 21:21:10.327  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:21:10.334  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:21:10.336  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:21:10.340  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.87 seconds (JVM running for 744.669)
+2021-12-15 21:21:10.340  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:21:30.436  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 12152 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:21:30.438  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:21:31.348  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:21:31.560  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 210 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:21:31.618  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:21:31.619  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:21:31.619  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:21:31.619  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:21:31.675  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:21:31.676  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:21:31.676  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1237 ms
+2021-12-15 21:21:31.710  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:21:31.860  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:21:31.989  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@305f76e4, org.springframework.security.web.context.SecurityContextPersistenceFilter@a13fd7b, org.springframework.security.web.header.HeaderWriterFilter@1b873706, org.springframework.security.web.authentication.logout.LogoutFilter@22130588, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2e145eeb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@718faade, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53128cee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@28b18d31, org.springframework.security.web.session.SessionManagementFilter@3fcb6875, org.springframework.security.web.access.ExceptionTranslationFilter@376981d6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4e42f332]
+2021-12-15 21:21:32.066  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:21:32.073  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:21:32.076  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:21:32.079  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.674 seconds (JVM running for 766.408)
+2021-12-15 21:21:32.080  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:22:38.225  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 12152 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:22:38.226  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:22:39.283  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:22:39.550  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 266 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:22:39.628  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:22:39.629  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:22:39.630  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:22:39.630  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:22:39.690  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:22:39.693  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:22:39.693  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1466 ms
+2021-12-15 21:22:39.731  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:22:39.880  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:22:39.992  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6db2c1f, org.springframework.security.web.context.SecurityContextPersistenceFilter@467ea0b6, org.springframework.security.web.header.HeaderWriterFilter@7b53f489, org.springframework.security.web.authentication.logout.LogoutFilter@4a797176, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2b8f38c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@681be356, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c88b560, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3b200a06, org.springframework.security.web.session.SessionManagementFilter@6ca33dfa, org.springframework.security.web.access.ExceptionTranslationFilter@590ef8af, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@16e64774]
+2021-12-15 21:22:40.073  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:22:40.080  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:22:40.083  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:22:40.087  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.889 seconds (JVM running for 834.417)
+2021-12-15 21:22:40.089  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:22:58.796  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 12152 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:22:58.797  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:22:59.761  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:22:59.973  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 212 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:23:00.047  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:23:00.048  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:23:00.048  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:23:00.049  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:23:00.106  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:23:00.107  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:23:00.108  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1307 ms
+2021-12-15 21:23:00.138  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:23:00.288  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:23:00.388  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@ea7e5f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@2a130585, org.springframework.security.web.header.HeaderWriterFilter@7d45b7b5, org.springframework.security.web.authentication.logout.LogoutFilter@9f81c48, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@629fbeaf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@34f2a9d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@64da58e6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@29f90249, org.springframework.security.web.session.SessionManagementFilter@2d1e4dce, org.springframework.security.web.access.ExceptionTranslationFilter@5009cec3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1a8fc9ae]
+2021-12-15 21:23:00.469  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:23:00.479  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:23:00.482  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:23:00.487  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.723 seconds (JVM running for 854.816)
+2021-12-15 21:23:00.489  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:23:14.057  INFO Ajay-PC --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 21:23:14.057  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-12-15 21:23:14.058  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-12-15 21:23:25.552  INFO Ajay-PC --- [nio-8080-exec-3] c.c.LoginController                      : User trying to login
+2021-12-15 21:23:37.218  WARN Ajay-PC --- [nio-8080-exec-7] o.h.o.deprecation                        : HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2021-12-15 21:23:37.371  WARN Ajay-PC --- [nio-8080-exec-8] o.h.o.deprecation                        : HHH90000022: Hibernate's legacy org.hibernate.Criteria API is deprecated; use the JPA javax.persistence.criteria.CriteriaQuery instead
+2021-12-15 21:23:44.733  WARN Ajay-PC --- [nio-8080-exec-2] o.a.p.POIDocument                        : DocumentSummaryInformation property set came back as null
+2021-12-15 21:23:44.733  WARN Ajay-PC --- [nio-8080-exec-2] o.a.p.POIDocument                        : SummaryInformation property set came back as null
+2021-12-15 21:29:58.594  WARN Ajay-PC --- [nio-8080-exec-7] o.a.p.POIDocument                        : DocumentSummaryInformation property set came back as null
+2021-12-15 21:29:58.595  WARN Ajay-PC --- [nio-8080-exec-7] o.a.p.POIDocument                        : SummaryInformation property set came back as null
+2021-12-15 21:30:28.467  WARN Ajay-PC --- [nio-8080-exec-9] o.a.p.POIDocument                        : DocumentSummaryInformation property set came back as null
+2021-12-15 21:30:28.468  WARN Ajay-PC --- [nio-8080-exec-9] o.a.p.POIDocument                        : SummaryInformation property set came back as null
+2021-12-15 21:31:01.419  WARN Ajay-PC --- [nio-8080-exec-1] o.a.p.POIDocument                        : DocumentSummaryInformation property set came back as null
+2021-12-15 21:31:01.419  WARN Ajay-PC --- [nio-8080-exec-1] o.a.p.POIDocument                        : SummaryInformation property set came back as null
+2021-12-15 21:31:31.018  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 12152 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:31:31.018  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:31:31.912  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:31:32.141  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 228 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:31:32.224  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:31:32.224  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:31:32.225  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:31:32.225  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:31:32.281  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:31:32.283  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:31:32.283  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1263 ms
+2021-12-15 21:31:32.300  WARN Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Cannot deserialize session attribute [SPRING_SECURITY_CONTEXT] for session [554C915B2EA4518A3A28FD62CE6133DE]
+2021-12-15 21:31:32.326  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:31:32.459  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:31:32.569  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6631992, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d3e26fc, org.springframework.security.web.header.HeaderWriterFilter@3ccd8d4b, org.springframework.security.web.authentication.logout.LogoutFilter@4caad68c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1284b402, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@520ea918, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2f9d1c7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@d62c5d0, org.springframework.security.web.session.SessionManagementFilter@1f17b07f, org.springframework.security.web.access.ExceptionTranslationFilter@7ce66320, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@e4c3b9d]
+2021-12-15 21:31:32.658  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:31:32.665  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:31:32.668  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:31:32.672  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.682 seconds (JVM running for 1367.0)
+2021-12-15 21:31:32.673  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:31:36.271  INFO Ajay-PC --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 21:31:36.271  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-12-15 21:31:36.271  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 0 ms
+2021-12-15 21:32:29.373  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 12152 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:32:29.373  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:32:30.308  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:32:30.548  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 239 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:32:30.609  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:32:30.610  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:32:30.610  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:32:30.610  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:32:30.663  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:32:30.664  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:32:30.664  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1289 ms
+2021-12-15 21:32:30.705  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:32:30.834  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:32:30.934  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@462931ec, org.springframework.security.web.context.SecurityContextPersistenceFilter@7ab8b471, org.springframework.security.web.header.HeaderWriterFilter@20e0bfd8, org.springframework.security.web.authentication.logout.LogoutFilter@18440b0e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4a2c407e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7a43cf43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f78a1ac, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e32fffa, org.springframework.security.web.session.SessionManagementFilter@5cf4829e, org.springframework.security.web.access.ExceptionTranslationFilter@600cf7a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2e5623f6]
+2021-12-15 21:32:30.998  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:32:31.005  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:32:31.007  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:32:31.011  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.664 seconds (JVM running for 1425.34)
+2021-12-15 21:32:31.012  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:32:32.558  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 12152 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:32:32.558  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:32:33.494  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:32:33.725  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 230 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:32:33.781  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:32:33.781  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:32:33.782  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:32:33.782  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:32:33.832  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:32:33.833  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:32:33.833  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1273 ms
+2021-12-15 21:32:33.867  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:32:34.017  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:32:34.124  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@10c8901d, org.springframework.security.web.context.SecurityContextPersistenceFilter@6875be03, org.springframework.security.web.header.HeaderWriterFilter@28650bd4, org.springframework.security.web.authentication.logout.LogoutFilter@4ecb8e74, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4aafd6c7, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@411a25eb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4121bdb7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4d839310, org.springframework.security.web.session.SessionManagementFilter@1f2aa95a, org.springframework.security.web.access.ExceptionTranslationFilter@324370a6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3df7acb9]
+2021-12-15 21:32:34.184  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:32:34.189  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:32:34.191  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:32:34.196  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.662 seconds (JVM running for 1428.524)
+2021-12-15 21:32:34.197  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:32:34.210  INFO Ajay-PC --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 21:32:34.210  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-12-15 21:32:34.211  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-12-15 21:32:34.274  WARN Ajay-PC --- [nio-8080-exec-1] o.a.p.POIDocument                        : DocumentSummaryInformation property set came back as null
+2021-12-15 21:32:34.274  WARN Ajay-PC --- [nio-8080-exec-1] o.a.p.POIDocument                        : SummaryInformation property set came back as null
+2021-12-15 21:33:17.365  WARN Ajay-PC --- [nio-8080-exec-2] o.a.p.POIDocument                        : DocumentSummaryInformation property set came back as null
+2021-12-15 21:33:17.366  WARN Ajay-PC --- [nio-8080-exec-2] o.a.p.POIDocument                        : SummaryInformation property set came back as null
+2021-12-15 21:34:19.305  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 12152 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-15 21:34:19.305  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-15 21:34:20.232  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-15 21:34:20.443  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 211 ms. Found 4 JPA repository interfaces.
+2021-12-15 21:34:20.516  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-15 21:34:20.517  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:34:20.517  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-15 21:34:20.517  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-15 21:34:20.571  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-15 21:34:20.572  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-15 21:34:20.572  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1265 ms
+2021-12-15 21:34:20.615  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-15 21:34:20.732  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-15 21:34:20.839  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6db93a4d, org.springframework.security.web.context.SecurityContextPersistenceFilter@771dafb9, org.springframework.security.web.header.HeaderWriterFilter@175fa5d5, org.springframework.security.web.authentication.logout.LogoutFilter@31b7aeb7, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@194578af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24d1d4fc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e4aacbe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@52ed806, org.springframework.security.web.session.SessionManagementFilter@113e9b8c, org.springframework.security.web.access.ExceptionTranslationFilter@3fcd8a4c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6c4464c9]
+2021-12-15 21:34:20.918  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-15 21:34:20.924  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-15 21:34:20.926  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-15 21:34:20.930  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 1.651 seconds (JVM running for 1535.259)
+2021-12-15 21:34:20.932  INFO Ajay-PC --- [  restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-12-15 21:34:30.832  INFO Ajay-PC --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-15 21:34:30.833  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-12-15 21:34:30.834  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
+2021-12-15 21:34:30.931  WARN Ajay-PC --- [nio-8080-exec-1] o.a.p.POIDocument                        : DocumentSummaryInformation property set came back as null
+2021-12-15 21:34:30.931  WARN Ajay-PC --- [nio-8080-exec-1] o.a.p.POIDocument                        : SummaryInformation property set came back as null
+2021-12-16 07:41:54.556  INFO Ajay-PC --- [n(44)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-12-16 07:41:57.304  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Starting TravelAdvisorApplication using Java 17 on Ajay-PC with PID 25364 (F:\Training\Java\TravelAdvisor\target\classes started by Ajay in F:\Training\Java\TravelAdvisor)
+2021-12-16 07:41:57.311  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : No active profile set, falling back to default profiles: default
+2021-12-16 07:41:57.356  INFO Ajay-PC --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-12-16 07:41:57.356  INFO Ajay-PC --- [  restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-12-16 07:41:58.851  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-12-16 07:41:59.163  INFO Ajay-PC --- [  restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 302 ms. Found 4 JPA repository interfaces.
+2021-12-16 07:41:59.685  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat initialized with port(s): 8080 (http)
+2021-12-16 07:41:59.694  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Initializing ProtocolHandler ["http-nio-8080"]
+2021-12-16 07:41:59.694  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2021-12-16 07:41:59.695  INFO Ajay-PC --- [  restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/9.0.55]
+2021-12-16 07:41:59.884  INFO Ajay-PC --- [  restartedMain] o.a.j.s.TldScanner                       : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-12-16 07:41:59.892  INFO Ajay-PC --- [  restartedMain] o.a.c.c.C.[.[.[/]                        : Initializing Spring embedded WebApplicationContext
+2021-12-16 07:41:59.892  INFO Ajay-PC --- [  restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2535 ms
+2021-12-16 07:42:00.056  INFO Ajay-PC --- [  restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 5.6.1.Final
+2021-12-16 07:42:00.238  INFO Ajay-PC --- [  restartedMain] o.h.a.c.Version                          : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-12-16 07:42:00.464  INFO Ajay-PC --- [  restartedMain] o.h.d.Dialect                            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2021-12-16 07:42:01.158  INFO Ajay-PC --- [  restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-12-16 07:42:01.600  INFO Ajay-PC --- [  restartedMain] o.s.s.w.DefaultSecurityFilterChain       : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2e307896, org.springframework.security.web.context.SecurityContextPersistenceFilter@751166b5, org.springframework.security.web.header.HeaderWriterFilter@7a468bff, org.springframework.security.web.authentication.logout.LogoutFilter@98a6945, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@8d78e99, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5139ddc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2b8f3d5c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1920779, org.springframework.security.web.session.SessionManagementFilter@54638f84, org.springframework.security.web.access.ExceptionTranslationFilter@7cd07dd4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4226d53e]
+2021-12-16 07:42:01.964  INFO Ajay-PC --- [  restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-12-16 07:42:01.984  INFO Ajay-PC --- [  restartedMain] o.a.c.h.Http11NioProtocol                : Starting ProtocolHandler ["http-nio-8080"]
+2021-12-16 07:42:02.034  INFO Ajay-PC --- [  restartedMain] o.s.b.w.e.t.TomcatWebServer              : Tomcat started on port(s): 8080 (http) with context path ''
+2021-12-16 07:42:02.044  INFO Ajay-PC --- [  restartedMain] c.TravelAdvisorApplication               : Started TravelAdvisorApplication in 5.011 seconds (JVM running for 5.928)
+2021-12-16 07:50:39.405  INFO Ajay-PC --- [nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-12-16 07:50:39.405  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2021-12-16 07:50:39.406  INFO Ajay-PC --- [nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 1 ms
