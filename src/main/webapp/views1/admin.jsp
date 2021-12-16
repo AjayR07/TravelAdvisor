@@ -18,6 +18,7 @@
      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/css/forgotModal.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+ <link rel="stylesheet" href="css/header.css">
     <title>Trip Ad ~ Admin</title>
     <style>
         body {
@@ -251,7 +252,20 @@ table.dataTable {
     
   </head>
   <body>
-    
+     <div>
+    <div class="header-blue">
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean-search">
+          <div class="container-fluid">
+
+            <h2 class=" navbar-text" style="color:greenyellow">Travel AD</h2>
+            
+                  <span class="navbar-text"> <a class="login" href="#"  style="color:rgb(255, 255, 255)">ADMIN DASHBOARD</a></span><a class="btn btn-light action-button" role="button" href="/logout">LogOut</a>
+              </div>
+        </nav>
+        
+        </div>
+    </div>
+</div>
     <div class="container " style="margin-top: 5%;" >
 <div class="justify-content-end">
         <button type="button" class="btn btn-primary" id="add">Add New Events</button>
