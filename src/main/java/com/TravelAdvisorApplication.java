@@ -12,25 +12,20 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+import com.repositories.UserRepoImpl;
 import com.services.ItemService;
 
 @SpringBootApplication(scanBasePackages = {"com"},exclude = HibernateJpaAutoConfiguration.class)
 public class TravelAdvisorApplication {
 
+	public static void setup(ConfigurableApplicationContext ctx) {
+		ItemService itemService=ctx.getBean("itemService",ItemService.class);
+		itemService.addItems();
+	
+	}
 	public static void main(String[] args) throws IOException {
 		ConfigurableApplicationContext ctx=  SpringApplication.run(TravelAdvisorApplication.class, args);
-//		ItemService itemService=ctx.getBean("itemService",ItemService.class);
-//		itemService.addItem();
-	//	for(ItemDTO item:itemService.listItems()) {
-//		System.out.println(item.getItemName() +" : "+item.getItemPrice());
-//	}
-//		
-//		CartService cartService=ctx.getBean(CartService.class);
-//		CartDTO cart=cartService.getMyCart(1);
-//		for(ProductsInCart p:cart.getProducts()) {
-//			System.out.println(p);
-//		}
-	}
-
+//		setup(ctx);
+}
 }
  
