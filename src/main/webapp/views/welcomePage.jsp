@@ -7,7 +7,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Welcome Page</title>
+    <title>Trip Ad</title>
   </head>
   <body>
   
@@ -19,12 +19,20 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wght@100;200;300;400;500;600;800&display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/modal.css">
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/myHeader.css">
 
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 <style>
-  /*DEFAULT*/
-  
+
   body{
   margin: 0;
+  width:100%;
   overflow-x: hidden;
   background-color: #061221;
   color:#fff;
@@ -176,18 +184,15 @@
   
   /*BANNER*/
   .banner{
-  width:100%;
+  width:120%;
   display:flex;
   position:relative;
-  background: linear-gradient(rgba(1,1,1,.5), rgba(1,1,1,.5)), url("https://wallpaperaccess.com/full/2499987.jpg");
-  background-attachment:fixed;
-  background-size:cover;
-  background-position:right;
+  
   }
   
   .banner section{
   height:100vh;
-  width:50%;
+  width:85%;
   position:relative;
   }
   
@@ -221,7 +226,13 @@
   line-height:1.6em;
   font-weight:400 !important;
   }
-  
+  .banner {
+  width:100%;
+background:  url("https://wallpaperaccess.com/full/2499987.jpg");
+  background-attachment:fixed;
+  background-size:cover;
+  background-position:right;
+}
   
   @media (max-width:1120px){
   .banner{
@@ -245,7 +256,50 @@
   width:120%;
   }
   }
+  
+  .slideInRight {
+  -webkit-animation-name: slideInRight;
+  animation-name: slideInRight;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  }
+  @-webkit-keyframes slideInRight {
+  0% {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  }
+  @keyframes slideInRight {
+  0% {
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
+  visibility: visible;
+  }
+  100% {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  }
+  } 
   </style>
+<script>
+
+
+
+window.onload=function(){
+		
+		if(${ not empty regStatus}){
+			$('#myModal').modal('show');
+		}
+		
+	}
+</script>
 </head>
 <body>
   <!-- Navigation Bar -->
@@ -263,24 +317,75 @@
     <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="NavBar()">&#9776;</a>
   </div>
   </header>
-	<c:if test="${not empty message}">
-	<div class="alert">
-	${success}
-	</div>
-	</c:if>
+
+	
     <div class="banner">
       <section class="left_section">
         <section>
           <span>
-            <h1 class="title">To Fuel Your Wanderlust </h1>
-            <h4 style="margin-bottom:70px">The journey of thousand miles begins with a single step...</h4>
-            <a href="#Auctions" class="btn1">Let's Get Started</a>
+            <h1 class="title">To Fuel Your Wanderlust </h1><br>
+            <h4 style="margin-bottom:70px">The journey of thousand miles begins with a single step...</h4><br>
+            <p  class="btn1" style="width:200px" style="color:#2234AE">Let's Get Started</p>
           </span>
-        </section>
+	</section>
       </section>
-      <section class="right-section">
+      <section class="right_section">
       </section>
     </div>
+
+<h1 class="text-center" style="padding-top:3%;font-size:48px;font-family:lato;"> Why us?</h1>
+<div  class="row">
+
+	<div class="col" style="padding:5% 20% 5% 10%;;font-size:24px;font-family:lato;color:white-smoke;text-align: justify;">
+		<p style="font-size:42px;font-weight:bold;color:white">We take care of your trips...</p> Going on a dream vacation sounds like paradise, but sometimes, life happens and your plans just don't work out. Traveling is fun and exciting. Ofcourse we don't want you to have any trouble for schedules, ticket booking, etc.., We are the ones who take care of all your needs.
+	</div>
+	
+	<div class="col">
+		<img src="https://stories.freepiklabs.com/storage/22085/trip-pana-2143.png" >
+	</div>
+
+</div>
+
+<img src="https://cdn.dribbble.com/users/648922/screenshots/7085082/media/2930078d78c4de20c72bfdbf4d3eb8b8.png?compress=1&resize=1600x1200" style="width:100%;">
+
+<h1 class="text-center" style="padding-top:3%;font-size:48px;font-family:lato;"> Exclusive Tickets</h1>
+<div  class="row" style="padding:3%;padding-right:5%">
+	
+	<div class="col" >
+		<img src="https://images.unsplash.com/photo-1516901941577-95fa3e26798b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHdhdGVyJTIwc3BvcnRzfGVufDB8MXwwfHw%3D&auto=format&fit=crop&w=490&q=60" style="border-radius:30px;">
+	</div>
+	
+	<div class="col">
+		<img src="https://images.unsplash.com/photo-1614094723471-ed6e2cf28cad?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=490&q=60" style="border-radius:30px;">
+	</div>
+	<div class="col" >
+		<img src="https://images.unsplash.com/photo-1507608443039-bfde4fbcd142?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aG90JTIwYWlyJTIwYmFsbG9vbnN8ZW58MHx8MHx8&auto=format&fit=crop&w=490&q=60" style="border-radius:30px;">
+	</div>
+
+</div>
+
+
+        <%@ include file="footer.html" %>
+        
+<div id="myModal" class="modal fade">
+	<div class="modal-dialog modal-confirm modal-dialog-centered">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div class="icon-box">
+					<i class="material-icons">&#xE876;</i>
+				</div>				
+				<h4 class="modal-title w-100">Awesome!</h4>	
+			</div>
+			<div class="modal-body">
+				<p class="text-center">Your User Registration has been confirmed. Check your email for details.</p>
+			</div>
+			<div class="modal-footer">
+				<button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+			</div>
+		</div>
+	</div>
+</div>  
+
   </body>
 
 

@@ -1,0 +1,17 @@
+{"properties": [
+  {
+    "name": "spring.SMS.ACCOUNT_SID",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.SMS.ACCOUNT_SID'"
+  },
+  {
+    "name": "spring.SMS.AUTH_TOKEN",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.SMS.AUTH_TOKEN'"
+  },
+  {
+    "name": "spring.SMS.PHONE_NO",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.SMS.PHONE_NO'"
+  }
+]}

@@ -89,7 +89,7 @@ public class LoginController {
 	    
 	    System.out.println(phone+" "+ code);
 		try {
-//			new SmsSenderImpl().sendSMS(phone, code);
+			new SmsSenderImpl().sendSMS(phone, code);
 			response.getWriter().append(code+"-"+phone);
 		} catch (Exception e) {
 			// TODO Auto-generated catch block

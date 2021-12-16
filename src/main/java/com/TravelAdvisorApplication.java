@@ -21,7 +21,7 @@ public class TravelAdvisorApplication {
 	public static void setup(ConfigurableApplicationContext ctx) {
 		ItemService itemService=ctx.getBean("itemService",ItemService.class);
 		itemService.addItems();
-	
+		
 	}
 	public static void main(String[] args) throws IOException {
 		ConfigurableApplicationContext ctx=  SpringApplication.run(TravelAdvisorApplication.class, args);
