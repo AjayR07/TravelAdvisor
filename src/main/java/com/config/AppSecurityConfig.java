@@ -23,8 +23,8 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter{
 	@Override
 	protected void configure(HttpSecurity http) throws Exception {
 		http
-		.authorizeRequests().antMatchers("/admin").hasRole("admin")
-		
+		.authorizeRequests()
+		.antMatchers("/admin").hasAuthority("ROLE_ADMIN") 
 		.and().authorizeRequests().antMatchers("/products/**").authenticated()
 		.and().authorizeRequests().antMatchers("/cart").authenticated()
 		.and().authorizeRequests().antMatchers("/login","/register","/forgotPass").permitAll()

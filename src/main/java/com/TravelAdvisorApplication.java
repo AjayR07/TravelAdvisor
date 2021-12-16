@@ -12,6 +12,8 @@ import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfigurat
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
+import com.services.ItemService;
+
 @SpringBootApplication(scanBasePackages = {"com"},exclude = HibernateJpaAutoConfiguration.class)
 public class TravelAdvisorApplication {
 
@@ -19,7 +21,7 @@ public class TravelAdvisorApplication {
 		ConfigurableApplicationContext ctx=  SpringApplication.run(TravelAdvisorApplication.class, args);
 //		ItemService itemService=ctx.getBean("itemService",ItemService.class);
 //		itemService.addItem();
-//		for(ItemDTO item:itemService.listItems()) {
+	//	for(ItemDTO item:itemService.listItems()) {
 //		System.out.println(item.getItemName() +" : "+item.getItemPrice());
 //	}
 //		
